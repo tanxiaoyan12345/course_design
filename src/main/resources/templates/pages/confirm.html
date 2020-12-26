@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>确认订单</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/confirm.css" rel="stylesheet">
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+
+    <script src="/static/js/confirm.js"></script>
+</head>
+<body>
+<div class="navstyle">
+    <div class="navbar-left">
+        <a href="/order" style="color: #ffffff">
+            <span class="glyphicon glyphicon-credit-card"></span>
+            我的订单
+        </a>
+    </div>
+    <div class="navbar-right">
+        <div class="navbar-loginregister">
+            <div class="navbar-login">
+                <a href="/login" style="color: #ffffff">
+                    <span class="glyphicon glyphicon-user"></span>
+                    登录
+                </a>
+            </div>
+            <div class="navbar-register">
+                <a href="/register" style="color: #ffffff">
+                    <span class="glyphicon glyphicon-log-in"></span>
+                    注册
+                </a>
+            </div>
+        </div>
+        <div class="navbar-cart">
+            <a href="/cart" style="color: #ffffff;font-size: 15px">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+                购物车
+            </a>
+        </div>
+    </div>
+</div>
+<div class="navbar-sub">
+    <div class="header">
+        <strong class="navbar-brand" style="color:#0f0f0f;font-size: 30px;padding-left: 50px;font-family:koler,serif">
+            Cosme美妆商城<br/>
+        </strong>
+        <p style="padding-left: 50px;font-size: 20px;font-style: italic;color: #0f0f0f;font-family:guoxiang,serif">
+            与你相遇最美丽
+        </p>
+    </div>
+    <div class="linklist">
+        <div class="linkstyle">
+            <a href="/mainPage" style="color: #0f0f0f">主页</a>
+        </div>
+        <div class="linkstyle">
+            <a href="/skincare" style="color: #0f0f0f">护肤</a>
+        </div>
+        <div class="linkstyle">
+            <a href="/mask" style="color: #0f0f0f">面膜</a>
+        </div>
+        <div class="linkstyle">
+            <a href="/makeup" style="color: #0f0f0f">彩妆</a>
+        </div>
+        <div class="linkstyle">
+            <a href="/perfume" style="color: #0f0f0f">香水</a>
+        </div>
+    </div>
+</div>
+<div class="confirmAddressTitle" style="font-weight: bold">
+    确认收货地址
+</div>
+<div class="showAddress">
+
+</div>
+<div class="showCartTitle">
+    <div style="float: left;font-weight: bold">确认订单信息</div>
+</div>
+<div class="showCartList">
+    <div class="cosmeticInfo">商品信息</div>
+    <div class="cosmeticPrice">单价(元)</div>
+    <div class="number">数量</div>
+    <div class="sumPrice">全额(元)</div>
+</div>
+<div class="divCart-cleanCart">
+    <div class="divCart-cleanCart-buttonDiv">
+        <button type="button" class="btnStyle" onclick="confirm()" style="width: 100%">提交订单</button>
+    </div>
+    <div class="divCart-cleanCart-sumPrice">
+        <span>共￥0.00元</span>
+    </div>
+</div>
+</body>
+</html>

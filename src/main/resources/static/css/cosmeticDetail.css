@@ -1,0 +1,182 @@
+html,body{
+    height:100%;
+    margin: 0 auto;
+}
+
+.navstyle{
+    margin-top: 0;
+    background-color: #222222;
+    opacity: 1.0;
+    height:5%;
+    width:100%;
+    border-top: solid 3px #a94442;
+}
+
+.navbar-left{
+    margin-left: 10%;
+    width: 10%;
+    float: left;
+}
+
+.navbar-right{
+    margin-right: 20%;
+    width: 20%;
+    float: left;
+}
+
+.navbar-loginregister{
+    width: 50%;
+    float: left
+}
+
+.navbar-login{
+    width: 50%;
+    float: left;
+}
+
+.navbar-register{
+    width: 50%;
+    float: left;
+}
+
+.navbar-cart{
+    width: 45%;
+    float: right;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #a94442;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 10%
+}
+
+.navbar-sub{
+    height:15%;
+    width:100%;
+    border-bottom: solid 2px #e5e5e5;
+    box-shadow: 0 5px 5px #e5e5e5;
+}
+
+.header{
+    float: left;
+    margin-left: 10%;
+}
+
+.linklist{
+    float: right;
+    margin-top: 1%;
+    margin-right: 10%;
+    width: 40%;
+}
+
+.linkstyle{
+    width:18%;
+    float: left;
+    padding-left: 5%;
+}
+
+.linkstyle a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.divShowDetail{
+    margin-top: 2%;
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+    border-top: solid 2px #e5e5e5;
+    padding-top: 1%;
+}
+
+.showImgLeft{
+    width: 35%;
+    height: 80%;
+    float: left;
+}
+
+.showTxtRight{
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+
+.divbrand{
+    height: 6%;
+    width: 100%;
+    font-size: 15px;
+    color: #9d9d9d;
+}
+
+.divtitle{
+    height: 20%;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.divprice{
+    height: 20%;
+    width: 100%;
+    background-color: #e5e5e5;
+}
+
+.divregion{
+    height: 6%;
+    width: 100%;
+}
+
+.right{
+    width:15%;
+    height: 100%;
+    float: left;
+}
+
+.left{
+    width: 79%;
+    height: 100%;
+    float: left;
+}
+
+.divbtn{
+    margin-top: 5%;
+    height: 12%;
+    width:100%;
+}
+
+.rightbtn{
+    width:30%;
+    height: 100%;
+    float: left;
+}
+
+.leftbtn{
+    width:30%;
+    height: 100%;
+    float: left;
+}
+
+.btnAddcart{
+    background-color: #c9302c;
+    border: 1px solid #a94442;
+    float: left;
+    color: white;
+    font-size: 16px;
+}
+
+.btnPurchase{
+    border: 1px solid red;
+    float: left;
+    color: red;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: koler;
+    src: url("../fonts/KolkerBrush.ttf");
+}
+
+@font-face {
+    font-family: guoxiang;
+    src: url("../fonts/guoxiang.ttf");
+}

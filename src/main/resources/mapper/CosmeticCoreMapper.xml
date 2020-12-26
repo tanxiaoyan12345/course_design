@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.shopping.mapper.CosmeticCoreMapper">
+    <resultMap id="BaseResultMap" type="com.example.shopping.entity.CosmeticCore">
+        <id column="id" jdbcType="INTEGER" property="id" />
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="price" jdbcType="DOUBLE" property="price"/>
+        <result column="category" jdbcType="VARCHAR" property="category"/>
+        <result column="subcategory" jdbcType="VARCHAR" property="subcategory"/>
+    </resultMap>
+    <sql id="Base_Column_list">
+        id, name, price, category, subcategory
+    </sql>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+        delete from cosmeticcore where id = #{id, jdbcType=INTEGER}
+    </delete>
+    <insert id="insert" parameterType="com.example.shopping.entity.CosmeticCore">
+        insert into cosmeticcore (id, name, price, subcategory) values (#{id, jdbcType=INTEGER},
+        #{name, jdbcType=VARCHAR}, #{price, jdbcType=DOUBLE}, #{subcategory, jdbcType=VARCHAR},
+        #{subcategory, jdbcType=VARCHAR})
+    </insert>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select <include refid="Base_Column_list"/> from cosmeticcore where id = #{id, jdbcType=INTEGER}
+    </select>
+    <select id="selectAllCosmeticCore" resultType="com.example.shopping.entity.CosmeticCore">
+        select * from cosmeticcore
+    </select>
+    <select id="selectByCategory" parameterType="java.lang.String" resultType="com.example.shopping.entity.CosmeticCore">
+        select * from cosmeticcore where category = #{category, jdbcType=VARCHAR}
+    </select>
+    <update id="updateByPrimaryKey" parameterType="com.example.shopping.entity.CosmeticCore">
+        update cosmeticcore set
+        name = #{name, jdbcType=VARCHAR}, price = #{price, jdbcType=DOUBLE},
+        category = #{subcategory, jdbcType=VARCHAR}, subcategory = #{subcategory, jdbcType=VARCHAR}}
+        where id = #{id, jdbcType=INTEGER}
+    </update>
+    <update id="updateByPrimaryKeySelective" parameterType="com.example.shopping.entity.CosmeticCore">
+        update cosmeticcore
+        <set>
+            <if test="name != null">name = #{name, jdbcType=VARCHAR},</if>
+            <if test="price != null">price = #{price, jdbcType=DOUBLE},</if>
+            <if test="category != null">category = #{category, jdbcType=VARCHAR},</if>
+            <if test="subcategory != null">subcategory = #{subcategory, jdbcType=VARCHAR},</if>
+        </set>
+        where id = #{id, jdbcType=INTEGER}
+    </update>
+</mapper>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.shopping.mapper.OrderMapper">
+    <resultMap id="BaseResultMap" type="com.example.shopping.entity.Order">
+        <id column="id" jdbcType="INTEGER" property="id" />
+        <result column="cosmeticId" jdbcType="INTEGER" property="cosmeticId"/>
+        <result column="customerId" jdbcType="INTEGER" property="customerId"/>
+        <result column="cosmeticName" jdbcType="VARCHAR" property="cosmeticName"/>
+        <result column="customerName" jdbcType="VARCHAR" property="customerName"/>
+        <result column="price" jdbcType="DOUBLE" property="price"/>
+        <result column="number" jdbcType="INTEGER" property="number"/>
+        <result column="sumPrice" jdbcType="DOUBLE" property="sumPrice"/>
+        <result column="address" jdbcType="VARCHAR" property="address"/>
+        <result column="region" jdbcType="VARCHAR" property="region"/>
+        <result column="purchaseTime" jdbcType="VARCHAR" property="purchaseTime"/>
+    </resultMap>
+    <sql id="Base_Column_list">
+        id, cosmeticId, customerId, cosmeticName, customerName, price, number, sumPrice, address, region, purchaseTime
+    </sql>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+        delete from `order` where id = #{id, jdbcType=INTEGER}
+    </delete>
+    <insert id="insert" parameterType="com.example.shopping.entity.Order">
+        insert into `order` (cosmeticId, customerId, cosmeticName, customerName, price, number, sumPrice, address, region, purchaseTime) values (#{cosmeticId, jdbcType=INTEGER}, #{customerId, jdbcType=INTEGER},
+        #{cosmeticName, jdbcType=VARCHAR}, #{customerName, jdbcType=VARCHAR}, #{price, jdbcType=DOUBLE},
+        #{number, jdbcType=INTEGER}, #{sumPrice, jdbcType=DOUBLE}, #{address, jdbcType=VARCHAR}, #{address, jdbcType=VARCHAR},#{purchaseTime, jdbcType=VARCHAR}
+        )
+    </insert>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select <include refid="Base_Column_list"/> from order where id = #{id, jdbcType=INTEGER}
+    </select>
+    <select id="selectAllOrder" resultType="com.example.shopping.entity.Order">
+        select * from `order`
+    </select>
+    <select id="selectByUserName" parameterType="java.lang.String" resultType="com.example.shopping.entity.Order">
+        select * from `order` where customerName = #{username, jdbcType=VARCHAR}
+    </select>
+    <update id="updateByPrimaryKey" parameterType="com.example.shopping.entity.Order">
+        update `order` set
+        cosmeticId = #{cosmeticId, jdbcType=INTEGER}, customerId = #{customerId, jdbcType=INTEGER},
+        cosmeticName = #{cosmeticName, jdbcType=VARCHAR}, customerName = #{customerName, jdbcType=VARCHAR},
+        price = #{price, jdbcType=DOUBLE}, number = #{number, jdbcType=INTEGER}, sumPrice = #{sumPrice, jdbcType=DOUBLE}
+        address = #{address, jdbcType=VARCHAR}, region = #{region, jdbcType=VARCHAR},
+        purchaseTime = #{purchaseTime, jdbcType=VARCHAR}
+        where id = #{id, jdbcType=INTEGER}
+    </update>
+    <update id="updateByPrimaryKeySelective" parameterType="com.example.shopping.entity.Order">
+        update `order`
+        <set>
+            <if test="cosmeticId != null">cosmeticId = #{cosmeticId, jdbcType=INTEGER},</if>
+            <if test="customerId != null">customerId = #{customerId, jdbcType=INTEGER},</if>
+            <if test="cosmeticName != null">cosmeticName = #{cosmeticName, jdbcType=VARCHAR},</if>
+            <if test="customerName != null">customerName = #{customerName, jdbcType=VARCHAR},</if>
+            <if test="price != null">price = #{price, jdbcType=DOUBLE},</if>
+            <if test="number != null">number = #{number, jdbcType=INTEGER},</if>
+            <if test="sumPrice != null">sumPrice = #{sumPrice, jdbcType=DOUBLE},</if>
+            <if test="address != null">address = #{address, jdbcType=VARCHAR},</if>
+            <if test="region != null">region = #{region, jdbcType=VARCHAR},</if>
+            <if test="purchaseTime != null">purchaseTime = #{purchaseTime, jdbcType=VARCHAR},</if>
+        </set>
+        where id = #{id, jdbcType=INTEGER}
+    </update>
+
+</mapper>

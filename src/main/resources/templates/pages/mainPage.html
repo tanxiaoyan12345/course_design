@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cosme美妆商城</title>
+
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/mainPage.css" rel="stylesheet">
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/static/js/mainPage.js"></script>
+
+</head>
+<body>
+    <div class="navstyle">
+        <div class="navbar-left">
+            <a href="/order" style="color: #ffffff">
+                <span class="glyphicon glyphicon-credit-card"></span>
+                我的订单
+            </a>
+        </div>
+        <div class="navbar-right">
+            <div class="navbar-loginregister">
+                <div class="navbar-login">
+                    <a href="/login" style="color: #ffffff">
+                        <span class="glyphicon glyphicon-user"></span>
+                        登录
+                    </a>
+                </div>
+                <div class="navbar-register">
+                    <a href="/register" style="color: #ffffff">
+                        <span class="glyphicon glyphicon-log-in"></span>
+                        注册
+                    </a>
+                </div>
+            </div>
+            <div class="navbar-cart">
+                <a href="/cart" style="color: #ffffff;font-size: 15px">
+                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                    购物车
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="navbar-sub">
+        <div class="header">
+            <strong class="navbar-brand" style="color:#0f0f0f;font-size: 30px;padding-left: 50px;font-family:koler,serif">
+                Cosme美妆商城<br/>
+            </strong>
+            <p style="padding-left: 50px;font-size: 20px;font-style: italic;color: #0f0f0f;font-family:guoxiang,serif">
+                与你相遇最美丽
+            </p>
+        </div>
+        <div class="linklist">
+            <div class="linkstyle">
+                <a href="/mainPage" style="color: #0f0f0f">主页</a>
+            </div>
+            <div class="linkstyle">
+                <a href="/skincare" style="color: #0f0f0f">护肤</a>
+            </div>
+            <div class="linkstyle">
+                <a href="/mask" style="color: #0f0f0f">面膜</a>
+            </div>
+            <div class="linkstyle">
+                <a href="/makeup" style="color: #0f0f0f">彩妆</a>
+            </div>
+            <div class="linkstyle">
+                <a href="/perfume" style="color: #0f0f0f">香水</a>
+            </div>
+        </div>
+    </div>
+    <div class="carouselrange">
+        <div id="myCarousel" class="carousel slide" style="width: 96%;height: 100%;margin-left: 2%">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner" style="height: 100%;">
+                <div class="item active" style="height: 100%;">
+                    <img src="/static/img/newCustomer.JPG" alt="First slide" style="height: 100%;width: 100%">
+                </div>
+                <div class="item" style="height: 100%;">
+                    <img src="/static/img/mask.JPG" alt="Second slide" style="height: 100%;width: 100%">
+                </div>
+                <div class="item" style="height: 100%">
+                    <img src="/static/img/perfume.JPG" alt="Third slide" style="height: 100%;width: 100%">
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="carousel-control left" href="#myCarousel"
+               data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" style="color: #c9302c"></span></a>
+            <a class="carousel-control right" href="#myCarousel"
+               data-slide="next"> <span class="glyphicon glyphicon-chevron-right" style="color: #c9302c"></span></a>
+        </div>
+    </div>
+    <div class="cardgroup">
+        <div class="category">
+            <div class="card cardstyle1">
+                <h3>
+                    <span class="glyphicon glyphicon-globe"></span>
+                    全球直采
+                </h3>
+                <p>与海外品牌直接签单合作，达成战略联盟</p>
+            </div>
+            <div class="card cardstyle2">
+                <h3>
+                    <span class="glyphicon glyphicon-tags"></span>
+                    价格公正
+                </h3>
+                <p>都是好牌子，天天有三折</p>
+            </div>
+            <div class="card cardstyle1">
+                <h3>
+                    <span class="glyphicon glyphicon-ok-circle"></span>
+                    售后无忧
+                </h3>
+                <p>提供七天无理由退换</p>
+            </div>
+        </div>
+    </div>
+    <div class="showBestsale">
+        <div class="showBestsaleTitle">
+            <p style="font-family: denghuo,serif;font-size: 30px"><span class="glyphicon glyphicon-bullhorn"></span>年度热销好货</p>
+        </div>
+        <div class="divShowCosmetic" id="bestsale">
+
+        </div>
+    </div>
+    <div class="footer" >
+        <p style="text-align: center;color: #ffffff">Copyright ©2019-2020 Cosme美妆商城  All Rights Reserved</p>
+    </div>
+</body>
+</html>

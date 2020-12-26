@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/register.css" rel="stylesheet">
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+
+    <script src="/static/js/register.js"></script>
+</head>
+<body>
+<div class="outer">
+    <nav class="navbar navbar-fixed-top navstyle">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <strong class="navbar-brand" style="color:#ffffff;font-size: 30px;padding-left: 50px;font-family:koler,serif">
+                    Cosme美妆商城<br/>
+                </strong>
+                <p style="padding-left: 50px;font-size: 20px;font-style: italic;color: #ffffff;font-family:guoxiang,serif">
+                    与你相遇最美丽
+                </p>
+            </div>
+            <div>
+                <ul class="nav navbar-nav navbar-right" style="padding-right: 30px">
+                    <li>
+                        <a href="/register">
+                            <span class="glyphicon glyphicon-user"></span>
+                            用户登录
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="/mainPage">
+                            <span class="glyphicon glyphicon-home"></span>
+                            回到首页
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="loginInter">
+        <p style="font-size: 20px;text-align: center;padding-top: 10px;">
+            <span class="glyphicon glyphicon-user"></span></p>
+        <form role="form">
+            <div class="form-group">
+                <label for="username">用户名</label>
+                <input type="text" class="form-control" name="username" id="username" placeholder="请输入用户名">
+            </div>
+            <div class="form-group">
+                <label for="password">密码</label>
+                <input type="password" class="form-control" name="password" id="password" placeholder="请输入密码">
+            </div>
+            <div class="form-group">
+                <label for="name">真实姓名</label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="请输入真实姓名">
+            </div>
+            <div class="form-group">
+                <label for="address">地址</label>
+                <input type="text" class="form-control" name="address" id="address" placeholder="请输入地址">
+            </div>
+            <div class="form-group">
+                <label for="region">所在区域</label>
+                <input type="text" class="form-control" name="region" id="region" placeholder="请输入所在区域">
+            </div>
+            <div class="form-group">
+                <button type="button" class="btn btn-success" onclick="register()">注册</button>
+                <a href="/login" class="btn btn-primary ">重置</a>
+            </div>
+        </form>
+    </div>
+    <footer class="container-fluid navbar-fixed-bottom" >
+        <p style="text-align: center;color: #e0e0e0">Copyright ©2019-2020 Cosme美妆商城  All Rights Reserved</p>
+    </footer>
+</div>
+</body>
+</html>

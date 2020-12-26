@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.shopping.mapper.CartMapper">
+    <resultMap id="BaseResultMap" type="com.example.shopping.entity.Cart">
+        <id column="id" jdbcType="INTEGER" property="id" />
+        <result column="cosmeticId" jdbcType="INTEGER" property="cosmeticId"/>
+        <result column="customerId" jdbcType="INTEGER" property="customerId"/>
+        <result column="cosmeticName" jdbcType="VARCHAR" property="cosmeticName"/>
+        <result column="customerName" jdbcType="VARCHAR" property="customerName"/>
+        <result column="price" jdbcType="DOUBLE" property="price"/>
+        <result column="number" jdbcType="INTEGER" property="number"/>
+        <result column="sumPrice" jdbcType="DOUBLE" property="sumPrice"/>
+    </resultMap>
+    <sql id="Base_Column_list">
+        id, cosmeticId, customerId, cosmeticName, customerName, price, number, sumPrice
+    </sql>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+        delete from cart where id = #{id, jdbcType=INTEGER}
+    </delete>
+    <insert id="insert" parameterType="com.example.shopping.entity.Cart">
+        insert into cart (cosmeticId, customerId, cosmeticName, customerName, price, number, sumPrice)
+        values (#{cosmeticId, jdbcType=INTEGER}, #{customerId, jdbcType=INTEGER},
+        #{cosmeticName, jdbcType=VARCHAR}, #{customerName, jdbcType=VARCHAR}, #{price, jdbcType=DOUBLE},
+        #{number, jdbcType=INTEGER}, #{sumPrice, jdbcType=DOUBLE}
+        )
+    </insert>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select <include refid="Base_Column_list"/> from cart where id = #{id, jdbcType=INTEGER}
+    </select>
+    <select id="selectAllCart" resultType="com.example.shopping.entity.Cart">
+        select * from cart
+    </select>
+    <select id="selectByUserName" parameterType = "java.lang.String" resultType="com.example.shopping.entity.Cart">
+        select * from cart where customerName = #{username, jdbcType=VARCHAR}
+    </select>
+    <update id="updateByPrimaryKey" parameterType="com.example.shopping.entity.Cart">
+        update cart set
+        cosmeticId = #{cosmeticId, jdbcType=INTEGER}, customerId = #{customerId, jdbcType=INTEGER},
+        cosmeticName = #{cosmeticName, jdbcType=VARCHAR}, customerName = #{customerName, jdbcType=VARCHAR},
+        price = #{price, jdbcType=DOUBLE}, number = #{number, jdbcType=INTEGER}, sumPrice = #{sumPrice, jdbcType=DOUBLE}
+        where id = #{id, jdbcType=INTEGER}
+    </update>
+    <update id="updateByPrimaryKeySelective" parameterType="com.example.shopping.entity.Cart">
+        update cart
+        <set>
+            <if test="cosmeticId != null">cosmeticId = #{cosmeticId, jdbcType=INTEGER},</if>
+            <if test="customerId != null">customerId = #{customerId, jdbcType=INTEGER},</if>
+            <if test="cosmeticName != null">cosmeticName = #{cosmeticName, jdbcType=VARCHAR},</if>
+            <if test="customerName != null">customerName = #{customerName, jdbcType=VARCHAR},</if>
+            <if test="price != null">price = #{price, jdbcType=DOUBLE},</if>
+            <if test="number != null">number = #{number, jdbcType=INTEGER},</if>
+            <if test="sumPrice != null">sumPrice = #{sumPrice, jdbcType=DOUBLE},</if>
+        </set>
+        where id = #{id, jdbcType=INTEGER}
+    </update>
+
+</mapper>
