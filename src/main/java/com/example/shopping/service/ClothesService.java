@@ -12,7 +12,7 @@ public interface ClothesService {
     public ClothesMapper getClothesMapper();
 
     @Transactional
-    public void setClothesMapper(ClothesMapper clothesMapper);
+    public void setClothesMapper(ClothesMapper ClothesMapper);
 
     @Transactional
     public List<Clothes> getAllClothes();

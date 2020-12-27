@@ -2,9 +2,9 @@ package com.example.shopping.entity;
 
 public class Orders {
     private Integer id;
-    private Integer clothesId;
+    private Integer ClothesId;
     private Integer customerId;
-    private String clothesName;
+    private String ClothesName;
     private String customerName;
     private Double price;
     private Integer number;
@@ -22,11 +22,11 @@ public class Orders {
     }
 
     public Integer getClothesId() {
-        return clothesId;
+        return ClothesId;
     }
 
-    public void setClothesId(Integer clothesId) {
-        this.clothesId = clothesId;
+    public void setClothesId(Integer ClothesId) {
+        this.ClothesId = ClothesId;
     }
 
     public Integer getCustomerId() {
@@ -38,7 +38,7 @@ public class Orders {
     }
 
     public String getClothesName() {
-        return clothesName;
+        return ClothesName;
     }
 
     public void setCustomerName(String customerName) {
@@ -49,8 +49,8 @@ public class Orders {
         return customerName;
     }
 
-    public void setClothesName(String clothesName) {
-        this.clothesName = clothesName;
+    public void setClothesName(String ClothesName) {
+        this.ClothesName = ClothesName;
     }
 
     public Double getPrice() {

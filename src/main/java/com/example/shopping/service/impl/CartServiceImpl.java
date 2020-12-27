@@ -25,7 +25,7 @@ public class CartServiceImpl implements CartService{
     private ImageMapper imageMapper;
 
     @Autowired
-    private ClothesMapper clothesMapper;
+    private ClothesMapper ClothesMapper;
 
     @Override
     public CartMapper getCartMapper(){
@@ -49,11 +49,11 @@ public class CartServiceImpl implements CartService{
 
         for(Cart cart : cartList){
             Image image = imageMapper.selectByPrimaryKey(cart.getClothesId());
-            Clothes clothes = clothesMapper.selectByPrimaryKey(cart.getClothesId());
+            Clothes Clothes = ClothesMapper.selectByPrimaryKey(cart.getClothesId());
             Map<String, Object> map = new HashMap<>();
-            map.put("clothesInfo", clothes);
+            map.put("ClothesInfo", Clothes);
             map.put("cartInfo", cart);
-            map.put("clothesImg", image);
+            map.put("ClothesImg", image);
             rList.add(map);
         }
         return rList;
@@ -65,7 +65,7 @@ public class CartServiceImpl implements CartService{
         Image image = imageMapper.selectByPrimaryKey(cart.getClothesId());
         Map<String, Object> map = new HashMap<>();
         map.put("cartInfo", cart);
-        map.put("clothesImg", image);
+        map.put("ClothesImg", image);
         return map;
     }
 
@@ -75,15 +75,15 @@ public class CartServiceImpl implements CartService{
     }
 
     @Override
-    public boolean addToCart(Customer customer, Clothes clothes, int num){
+    public boolean addToCart(Customer customer, Clothes Clothes, int num){
         Cart cart = new Cart();
-        cart.setClothesId(clothes.getId());
+        cart.setClothesId(Clothes.getId());
         cart.setCustomerId(customer.getId());
-        cart.setClothesName(clothes.getName());
+        cart.setClothesName(Clothes.getName());
         cart.setCustomerName(customer.getUsername());
-        cart.setPrice(clothes.getPrice());
+        cart.setPrice(Clothes.getPrice());
         cart.setNumber(num);
-        cart.setSumPrice(clothes.getPrice()*num);
+        cart.setSumPrice(Clothes.getPrice()*num);
         return cartMapper.insert(cart);
     }
 

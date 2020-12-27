@@ -16,31 +16,31 @@ $(function () {
         dataType: "json",
         async: false,
         success: function (data) {
-            var clothesDetail = data.OneClothDetail;
+            var ClothesDetail = data.OneClothesDetail;
             //左半部分图片部分
-            $(".showImgLeft").append("<img src='"+ clothesDetail.clothImg.image + "' style='height: 100%;width: 100%'>");
+            $(".showImgLeft").append("<img src='"+ ClothesDetail.ClothesImg.image + "' style='height: 100%;width: 100%'>");
 
             //右半部分信息内容
             $(".showTxtRight").append(
                 "<div class='divbrand'>\n" +
-                    "品牌|" +clothesDetail.cloth.brand +
+                    "品牌|" +ClothesDetail.Clothes.brand +
                 "</div>\n" +
                 "<div class='divtitle'>\n" +
-                    clothesDetail.cloth.name +
+                    ClothesDetail.Clothes.name +
                 "</div>\n" +
                 "<div class='divprice'>\n" +
                     "<p>售价</p>\n"+
                     "<div style='color: #a94442;font-size: 20px;padding-left: 15%;font-weight: bold'>\n" +
-                        "￥" + clothesDetail.cloth.price +".00\n" +
+                        "￥" + ClothesDetail.Clothes.price +".00\n" +
                     "</div>\n" +
                 "</div>\n" +
                 "<div class='divregion'>\n" +
                     "<div class='right'>运费</div>" +
-                    "<div class='left'style='font-weight: bold;'>至&nbsp" + clothesDetail.cloth.region +"&nbsp免运费</div>\n" +
+                    "<div class='left'style='font-weight: bold;'>至&nbsp" + ClothesDetail.Clothes.region +"&nbsp免运费</div>\n" +
                 "</div>\n" +
                 "<div class='divregion'>\n" +
                     "<div class='right'>服务</div>" +
-                    "<div class='left' style='font-weight: bold;'>本商品由&nbsp" + clothesDetail.cloth.warehouse +"&nbsp发货</div>\n" +
+                    "<div class='left' style='font-weight: bold;'>本商品由&nbsp" + ClothesDetail.Clothes.warehouse +"&nbsp发货</div>\n" +
                 "</div>\n" +
                 "<div class='divregion'>\n" +
                 "<div class='right'>说明</div>" +
@@ -52,7 +52,7 @@ $(function () {
                 "</div>\n" +
                 "<div class='divbtn'>\n" +
                     "<div class='rightbtn'>\n"+
-                        "<button type='submit' class='btnAddcart' onclick='addCart("+ clothesDetail.cloth.id +","+ 1 +",)'>加入购物车</button>\n" +
+                        "<button type='submit' class='btnAddcart' onclick='addCart("+ ClothesDetail.Clothes.id +","+ 1 +",)'>加入购物车</button>\n" +
                     "</div>\n"+
                     "<div class='leftbtn'>\n"+
                         "<button type='submit' class='btnPurchase'>立即购买</button>\n" +
@@ -97,7 +97,7 @@ function addCart(bookId, num) {
                     type: "post",
                     url: "/addToCart",
                     data: {
-                        "clothesId" : bookId,
+                        "ClothesId" : bookId,
                         "num" : num
                     },
                     dataType: "json",

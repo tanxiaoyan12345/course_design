@@ -50,7 +50,7 @@ public class OrdersServiceImpl implements OrdersService {
             Image image = imageMapper.selectByPrimaryKey(orders.getClothesId());
             Map<String, Object> map = new HashMap<>();
             map.put("ordersInfo", orders);
-            map.put("clothesImg", image);
+            map.put("ClothesImg", image);
             rList.add(map);
         }
         return rList;

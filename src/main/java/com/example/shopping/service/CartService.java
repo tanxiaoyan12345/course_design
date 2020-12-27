@@ -29,7 +29,7 @@ public interface CartService {
     public Cart getCartByPrimaryKey2(Integer id);
 
     @Transactional
-    public boolean addToCart(Customer customer, Clothes clothes, int num);
+    public boolean addToCart(Customer customer, Clothes Clothes, int num);
 
     @Transactional
     public boolean deleteItem(int cartId);

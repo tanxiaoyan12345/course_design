@@ -118,13 +118,13 @@ html,body{
     border-bottom: solid 2px #f5f5f5;
 }
 
-.clothesInfo{
+.ClothesInfo{
     width: 70%;
     float: left;
     text-align: center;
 }
 
-.clothesPrice{
+.ClothesPrice{
     width: 10%;
     float: left;
     text-align: center;

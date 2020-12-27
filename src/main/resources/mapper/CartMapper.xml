@@ -3,24 +3,24 @@
 <mapper namespace="com.example.shopping.mapper.CartMapper">
     <resultMap id="BaseResultMap" type="com.example.shopping.entity.Cart">
         <id column="id" jdbcType="INTEGER" property="id" />
-        <result column="clothesId" jdbcType="INTEGER" property="clothesId"/>
+        <result column="ClothesId" jdbcType="INTEGER" property="ClothesId"/>
         <result column="customerId" jdbcType="INTEGER" property="customerId"/>
-        <result column="clothesName" jdbcType="VARCHAR" property="clothesName"/>
+        <result column="ClothesName" jdbcType="VARCHAR" property="ClothesName"/>
         <result column="customerName" jdbcType="VARCHAR" property="customerName"/>
         <result column="price" jdbcType="DOUBLE" property="price"/>
         <result column="number" jdbcType="INTEGER" property="number"/>
         <result column="sumPrice" jdbcType="DOUBLE" property="sumPrice"/>
     </resultMap>
     <sql id="Base_Column_list">
-        id, clothesId, customerId, clothesName, customerName, price, number, sumPrice
+        id, ClothesId, customerId, ClothesName, customerName, price, number, sumPrice
     </sql>
     <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
         delete from cart where id = #{id, jdbcType=INTEGER}
     </delete>
     <insert id="insert" parameterType="com.example.shopping.entity.Cart">
-        insert into cart (clothesId, customerId, clothesName, customerName, price, number, sumPrice)
-        values (#{clothesId, jdbcType=INTEGER}, #{customerId, jdbcType=INTEGER},
-        #{clothesName, jdbcType=VARCHAR}, #{customerName, jdbcType=VARCHAR}, #{price, jdbcType=DOUBLE},
+        insert into cart (ClothesId, customerId, ClothesName, customerName, price, number, sumPrice)
+        values (#{ClothesId, jdbcType=INTEGER}, #{customerId, jdbcType=INTEGER},
+        #{ClothesName, jdbcType=VARCHAR}, #{customerName, jdbcType=VARCHAR}, #{price, jdbcType=DOUBLE},
         #{number, jdbcType=INTEGER}, #{sumPrice, jdbcType=DOUBLE}
         )
     </insert>
@@ -35,17 +35,17 @@
     </select>
     <update id="updateByPrimaryKey" parameterType="com.example.shopping.entity.Cart">
         update cart set
-        clothesId = #{clothesId, jdbcType=INTEGER}, customerId = #{customerId, jdbcType=INTEGER},
-        clothesName = #{clothesName, jdbcType=VARCHAR}, customerName = #{customerName, jdbcType=VARCHAR},
+        ClothesId = #{ClothesId, jdbcType=INTEGER}, customerId = #{customerId, jdbcType=INTEGER},
+        ClothesName = #{ClothesName, jdbcType=VARCHAR}, customerName = #{customerName, jdbcType=VARCHAR},
         price = #{price, jdbcType=DOUBLE}, number = #{number, jdbcType=INTEGER}, sumPrice = #{sumPrice, jdbcType=DOUBLE}
         where id = #{id, jdbcType=INTEGER}
     </update>
     <update id="updateByPrimaryKeySelective" parameterType="com.example.shopping.entity.Cart">
         update cart
         <set>
-            <if test="clothesId != null">clothesId = #{clothesId, jdbcType=INTEGER},</if>
+            <if test="ClothesId != null">ClothesId = #{ClothesId, jdbcType=INTEGER},</if>
             <if test="customerId != null">customerId = #{customerId, jdbcType=INTEGER},</if>
-            <if test="clothesName != null">clothesName = #{clothesName, jdbcType=VARCHAR},</if>
+            <if test="ClothesName != null">ClothesName = #{ClothesName, jdbcType=VARCHAR},</if>
             <if test="customerName != null">customerName = #{customerName, jdbcType=VARCHAR},</if>
             <if test="price != null">price = #{price, jdbcType=DOUBLE},</if>
             <if test="number != null">number = #{number, jdbcType=INTEGER},</if>

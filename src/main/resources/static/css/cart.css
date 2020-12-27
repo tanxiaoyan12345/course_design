@@ -94,13 +94,13 @@ html,body{
     border: solid 2px #f5f5f5;
 }
 
-.clothesInfo{
+.ClothesInfo{
     width: 60%;
     float: left;
     text-align: center;
 }
 
-.clothesPrice{
+.ClothesPrice{
     width: 10%;
     float: left;
     text-align: center;

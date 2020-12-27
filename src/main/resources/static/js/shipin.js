@@ -1,75 +1,74 @@
 $(function () {
-    //加载图书的信息
     $.ajax({
         type: "post",
-        url: "/getClothesCoreByPerfume",
+        url: "/getClothesCoreByshipin",
         data: {},
         dataType: "json",
         async : false,
         success: function(data){
-            var list = data.ClothCoreByPerfume;
-            var nanxiang = [];
-            var nvxiang = [];
-            var zhongxingxiang = [];
+            var list = data.ClothesCoreByshipin;
+            var maozi = [];
+            var weijin = [];
+            var yaodai = [];
             for (var i = 0; i < list.length; i++){
-                if(list[i].Cloth.subcategory === "男香"){
-                    nanxiang.push(list[i]);
-                }else if(list[i].Cloth.subcategory === "女香"){
-                    nvxiang.push(list[i]);
-                }else if(list[i].Cloth.subcategory === "中性香"){
-                    zhongxingxiang.push(list[i]);
+                if(list[i].Clothes.subcategory === "maozi"){
+                    maozi.push(list[i]);
+                }else if(list[i].Clothes.subcategory === "weijin"){
+                    weijin.push(list[i]);
+                }else if(list[i].Clothes.subcategory === "yaodai"){
+                    yaodai.push(list[i]);
                 }
             }
-            for (var i = 0; i < nanxiang.length; i++){
+            for (var i = 0; i < maozi.length; i++){
                 $("#bestsale1").append(
                     "<div class='divClothes'>\n"+
                     "<div class='divClothesImage'>\n"+
-                    "<img src='"+nanxiang[i].ClothImg.image+"'style='height: 100%; width: 100%'>"+
+                    "<img src='"+maozi[i].ClothesImg.image+"'style='height: 100%; width: 100%'>"+
                     "</div>\n"+
                     "<div class='divClothesTitlePrice'>\n"+
                     "<div class='divClothesTitle'>\n"+
-                    nanxiang[i].Cloth.name+
+                    maozi[i].Clothes.name+
                     "</div>\n"+
                     "<div class='divClothesPrice'>\n"+"￥"+
-                    nanxiang[i].Cloth.price+
+                    maozi[i].Clothes.price+
                     "<button type='submit' class='btn btn-danger btn-sm' style='float: right'" +
-                    "onclick='openNewBookDetail(" +nanxiang[i].Cloth.id +")'>查看详情</button>"+
+                    "onclick='openNewBookDetail(" +maozi[i].Clothes.id +")'>查看详情</button>"+
                     "</div>\n"+
                     "</div>\n"+
                     "</div>");
             }
-            for (var i = 0; i < nvxiang.length; i++){
+            for (var i = 0; i < weijin.length; i++){
                 $("#bestsale2").append(
                     "<div class='divClothes'>\n"+
                     "<div class='divClothesImage'>\n"+
-                    "<img src='"+nvxiang[i].ClothImg.image+"'style='height: 100%; width: 100%'>"+
+                    "<img src='"+weijin[i].ClothesImg.image+"'style='height: 100%; width: 100%'>"+
                     "</div>\n"+
                     "<div class='divClothesTitlePrice'>\n"+
                     "<div class='divClothesTitle'>\n"+
-                    nvxiang[i].Cloth.name+
+                    weijin[i].Clothes.name+
                     "</div>\n"+
                     "<div class='divClothesPrice'>\n"+"￥"+
-                    nvxiang[i].Cloth.price+
+                    weijin[i].Clothes.price+
                     "<button type='submit' class='btn btn-danger btn-sm' style='float: right'" +
-                    "onclick='openNewBookDetail(" +nvxiang[i].Cloth.id +")'>查看详情</button>"+
+                    "onclick='openNewBookDetail(" +weijin[i].Clothes.id +")'>查看详情</button>"+
                     "</div>\n"+
                     "</div>\n"+
                     "</div>");
             }
-            for (var i = 0; i < zhongxingxiang.length; i++){
+            for (var i = 0; i < yaodai.length; i++){
                 $("#bestsale3").append(
                     "<div class='divClothes'>\n"+
                     "<div class='divClothesImage'>\n"+
-                    "<img src='"+zhongxingxiang[i].ClothImg.image+"'style='height: 100%; width: 100%'>"+
+                    "<img src='"+yaodai[i].ClothesImg.image+"'style='height: 100%; width: 100%'>"+
                     "</div>\n"+
                     "<div class='divClothesTitlePrice'>\n"+
                     "<div class='divClothesTitle'>\n"+
-                    zhongxingxiang[i].Cloth.name+
+                    yaodai[i].Clothes.name+
                     "</div>\n"+
                     "<div class='divClothesPrice'>\n"+"￥"+
-                    zhongxingxiang[i].Cloth.price+
+                    yaodai[i].Clothes.price+
                     "<button type='submit' class='btn btn-danger btn-sm' style='float: right'" +
-                    "onclick='openNewBookDetail(" +zhongxingxiang[i].Cloth.id +")'>查看详情</button>"+
+                    "onclick='openNewBookDetail(" +yaodai[i].Clothes.id +")'>查看详情</button>"+
                     "</div>\n"+
                     "</div>\n"+
                     "</div>");
@@ -97,6 +96,6 @@ $(function () {
 });
 
 function openNewBookDetail(id) {
-    window.location.href = "/clothesDetail?id="+id;
+    window.location.href = "/ClothesDetail?id="+id;
 }
 

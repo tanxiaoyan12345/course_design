@@ -20,35 +20,35 @@ import java.util.Map;
 @Service
 public class ClothesServiceImpl implements ClothesService {
     @Autowired
-    private ClothesMapper clothesMapper;
+    private ClothesMapper ClothesMapper;
 
     @Autowired
     private SaleMapper saleMapper;
 
     @Autowired
-    private ClothesCoreMapper clothesCoreMapper;
+    private ClothesCoreMapper ClothesCoreMapper;
 
     @Autowired
     private ImageMapper imageMapper;
 
     @Override
     public ClothesMapper getClothesMapper(){
-        return clothesMapper;
+        return ClothesMapper;
     }
 
     @Override
-    public void setClothesMapper(ClothesMapper clothesMapper){
-        this.clothesMapper = clothesMapper;
+    public void setClothesMapper(ClothesMapper ClothesMapper){
+        this.ClothesMapper = ClothesMapper;
     }
 
     @Override
     public List<Clothes> getAllClothes(){
-        return clothesMapper.selectAllClothes();
+        return ClothesMapper.selectAllClothes();
     }
 
     @Override
     public Clothes getClothesByPrimaryKey(Integer id){
-        return clothesMapper.selectByPrimaryKey(id);
+        return ClothesMapper.selectByPrimaryKey(id);
     }
 
     @Override
@@ -57,12 +57,12 @@ public class ClothesServiceImpl implements ClothesService {
         List<Map<String,Object>> rList = new ArrayList<>();
 
         for(Sale sale: saleList){
-            int clothesId = sale.getId();
-            Image image = imageMapper.selectByPrimaryKey(clothesId);
-            ClothesCore clothesCore = clothesCoreMapper.selectByPrimaryKey(clothesId);
+            int ClothesId = sale.getId();
+            Image image = imageMapper.selectByPrimaryKey(ClothesId);
+            ClothesCore ClothesCore = ClothesCoreMapper.selectByPrimaryKey(ClothesId);
             Map<String, Object> map = new HashMap<>();
-            map.put("bestSaleCloth", clothesCore);
-            map.put("bestSaleClothImg", image);
+            map.put("bestSaleClothes", ClothesCore);
+            map.put("bestSaleClothesImg", image);
             rList.add(map);
         }
         return rList;
@@ -70,14 +70,14 @@ public class ClothesServiceImpl implements ClothesService {
 
     @Override
     public List<Map<String,Object>> getClothesCoreByCategory(String category){
-        List<ClothesCore> clothesCoreList = clothesCoreMapper.selectByCategory(category);
+        List<ClothesCore> ClothesCoreList = ClothesCoreMapper.selectByCategory(category);
         List<Map<String,Object>> rList = new ArrayList<>();
 
-        for(ClothesCore clothesCore : clothesCoreList){
-            Image image = imageMapper.selectByPrimaryKey(clothesCore.getId());
+        for(ClothesCore ClothesCore : ClothesCoreList){
+            Image image = imageMapper.selectByPrimaryKey(ClothesCore.getId());
             Map<String, Object> map = new HashMap<>();
-            map.put("Cloth", clothesCore);
-            map.put("ClothImg", image);
+            map.put("Clothes", ClothesCore);
+            map.put("ClothesImg", image);
             rList.add(map);
         }
         return rList;
@@ -85,11 +85,11 @@ public class ClothesServiceImpl implements ClothesService {
 
     @Override
     public Map<String,Object> getOneClothesDetail(Integer id){
-        Clothes clothes = clothesMapper.selectByPrimaryKey(id);
+        Clothes Clothes = ClothesMapper.selectByPrimaryKey(id);
         Image image = imageMapper.selectByPrimaryKey(id);
         Map<String, Object> map = new HashMap<>();
-        map.put("cloth", clothes);
-        map.put("clothImg", image);
+        map.put("Clothes", Clothes);
+        map.put("ClothesImg", image);
         return map;
     }
 }

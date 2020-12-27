@@ -12,16 +12,16 @@ $(function () {
                 $("#bestsale").append(
                     "<div class='divClothes'>\n"+
                         "<div class='divClothesImage'>\n"+
-                            "<img src='"+list[i].bestSaleClothImg.image+"'style='height: 100%; width: 100%'>"+
+                            "<img src='"+list[i].bestSaleClothesImg.image+"'style='height: 100%; width: 100%'>"+
                         "</div>\n"+
                         "<div class='divClothesTitlePrice'>\n"+
                             "<div class='divClothesTitle'>\n"+
-                                list[i].bestSaleCloth.name+
+                                list[i].bestSaleClothes.name+
                             "</div>\n"+
                             "<div class='divClothesPrice'>\n"+"￥"+
-                                list[i].bestSaleCloth.price+
+                                list[i].bestSaleClothes.price+
                                 "<button type='submit' class='btn btn-danger btn-sm' style='float: right'" +
-                                "onclick='openNewBookDetail(" +list[i].bestSaleCloth.id +")'>查看详情</button>"+
+                                "onclick='openNewBookDetail(" +list[i].bestSaleClothes.id +")'>查看详情</button>"+
                             "</div>\n"+
                         "</div>\n"+
                     "</div>");
@@ -49,6 +49,6 @@ $(function () {
 });
 
 function openNewBookDetail(id) {
-    window.location.href = "/clothesDetail?id="+id;
+    window.location.href = "/ClothesDetail?id="+id;
 }
 

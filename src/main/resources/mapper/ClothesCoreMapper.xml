@@ -12,30 +12,30 @@
         id, name, price, category, subcategory
     </sql>
     <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
-        delete from clothescore where id = #{id, jdbcType=INTEGER}
+        delete from Clothescore where id = #{id, jdbcType=INTEGER}
     </delete>
     <insert id="insert" parameterType="com.example.shopping.entity.ClothesCore">
-        insert into clothescore (id, name, price, subcategory) values (#{id, jdbcType=INTEGER},
+        insert into Clothescore (id, name, price, subcategory) values (#{id, jdbcType=INTEGER},
         #{name, jdbcType=VARCHAR}, #{price, jdbcType=DOUBLE}, #{subcategory, jdbcType=VARCHAR},
         #{subcategory, jdbcType=VARCHAR})
     </insert>
     <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
-        select <include refid="Base_Column_list"/> from clothescore where id = #{id, jdbcType=INTEGER}
+        select <include refid="Base_Column_list"/> from Clothescore where id = #{id, jdbcType=INTEGER}
     </select>
     <select id="selectAllClothesCore" resultType="com.example.shopping.entity.ClothesCore">
-        select * from clothescore
+        select * from Clothescore
     </select>
     <select id="selectByCategory" parameterType="java.lang.String" resultType="com.example.shopping.entity.ClothesCore">
-        select * from clothescore where category = #{category, jdbcType=VARCHAR}
+        select * from Clothescore where category = #{category, jdbcType=VARCHAR}
     </select>
     <update id="updateByPrimaryKey" parameterType="com.example.shopping.entity.ClothesCore">
-        update clothescore set
+        update Clothescore set
         name = #{name, jdbcType=VARCHAR}, price = #{price, jdbcType=DOUBLE},
         category = #{subcategory, jdbcType=VARCHAR}, subcategory = #{subcategory, jdbcType=VARCHAR}}
         where id = #{id, jdbcType=INTEGER}
     </update>
     <update id="updateByPrimaryKeySelective" parameterType="com.example.shopping.entity.ClothesCore">
-        update clothescore
+        update Clothescore
         <set>
             <if test="name != null">name = #{name, jdbcType=VARCHAR},</if>
             <if test="price != null">price = #{price, jdbcType=DOUBLE},</if>

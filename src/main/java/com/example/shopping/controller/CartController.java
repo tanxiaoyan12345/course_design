@@ -21,7 +21,7 @@ public class CartController {
     private CartService cartService;
 
     @Autowired
-    private ClothesService clothesService;
+    private ClothesService ClothesService;
 
     public CartService getCartService() {
         return cartService;
@@ -32,11 +32,11 @@ public class CartController {
     }
 
     public ClothesService getClothesService() {
-        return clothesService;
+        return ClothesService;
     }
 
-    public void setClothesService(ClothesService clothesService) {
-        this.clothesService = clothesService;
+    public void setClothesService(ClothesService ClothesService) {
+        this.ClothesService = ClothesService;
     }
 
     @RequestMapping(value = "/getCartByUsername", method=RequestMethod.POST)
@@ -66,11 +66,11 @@ public class CartController {
     @RequestMapping(value = "/addToCart", method=RequestMethod.POST)
     public Map<String, String> addToCart(@RequestParam Map<String, Object> map, HttpSession httpSession){
         Customer customer = (Customer) httpSession.getAttribute("customer");
-        int clothesId = Integer.parseInt((String)map.get("clothesId"));
+        int ClothesId = Integer.parseInt((String)map.get("ClothesId"));
         int num = Integer.parseInt((String) map.get("num"));
-        Clothes clothes = clothesService.getClothesByPrimaryKey(clothesId);
+        Clothes Clothes = ClothesService.getClothesByPrimaryKey(ClothesId);
         Map<String, String> rMap = new HashMap<>();
-        if(cartService.addToCart(customer, clothes, num))
+        if(cartService.addToCart(customer, Clothes, num))
             rMap.put("addToCartResult", "success");
         else
             rMap.put("addToCartResult", "fail");

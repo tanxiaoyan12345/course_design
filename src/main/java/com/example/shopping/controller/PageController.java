@@ -13,9 +13,9 @@ public class PageController {
     public String mainPage(){
         return "mainPage";
     }
-    @RequestMapping("/clothesDetail")
-    public String clothesDetail(){
-        return "clothesDetail";
+    @RequestMapping("/ClothesDetail")
+    public String ClothesDetail(){
+        return "ClothesDetail";
     }
     @RequestMapping("/cart")
     public String cart(){
@@ -26,27 +26,27 @@ public class PageController {
         return "confirm";
     }
     @RequestMapping("/orders")
-    public String order(){
-        return "order";
+    public String orders(){
+        return "orders";
     }
     @RequestMapping("/register")
     public String register(){
         return "register";
     }
-    @RequestMapping("/skincare")
-    public String skincare(){
-        return "skincare";
+    @RequestMapping("/nanzhuang")
+    public String nanzhuang(){
+        return "nanzhuang";
     }
-    @RequestMapping("/mask")
-    public String mask(){
-        return "mask";
+    @RequestMapping("/nvzhuang")
+    public String nvzhuang(){
+        return "nvzhuang";
     }
-    @RequestMapping("/makeup")
-    public String makeup(){
-        return "makeup";
+    @RequestMapping("/tongzhuang")
+    public String tongzhuang(){
+        return "tongzhuang";
     }
-    @RequestMapping("/perfume")
-    public String perfume(){
-        return "perfume";
+    @RequestMapping("/shipin")
+    public String shipin(){
+        return "shipin";
     }
 }

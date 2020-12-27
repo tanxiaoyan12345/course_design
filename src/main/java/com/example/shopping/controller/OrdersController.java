@@ -23,7 +23,7 @@ public class OrdersController {
     @Autowired
     private CartService cartService;
 
-    public OrdersService getOrderService() {
+    public OrdersService getOrdersService() {
         return ordersService;
     }
 
@@ -40,7 +40,7 @@ public class OrdersController {
     }
 
     @RequestMapping(value = "/getOrderByUserName", method=RequestMethod.POST)
-    public Map<String, List<Map<String,Object>>> getOrderByUserName(HttpSession httpSession){
+    public Map<String, List<Map<String,Object>>> getOrdersByUserName(HttpSession httpSession){
         Customer customer = (Customer) httpSession.getAttribute("customer");
         String username = customer.getUsername();
 
@@ -53,16 +53,16 @@ public class OrdersController {
         return rMap;
     }
 
-    @RequestMapping(value = "/addNewOrder", method=RequestMethod.POST)
-    public Map<String, String> addNewOrder(@RequestParam Map<String, Object> map, HttpSession httpSession){
+    @RequestMapping(value = "/addNewOrders", method=RequestMethod.POST)
+    public Map<String, String> addNewOrders(@RequestParam Map<String, Object> map, HttpSession httpSession){
         Customer customer = (Customer) httpSession.getAttribute("customer");
         int cartId = Integer.parseInt((String)map.get("cartId"));
         Cart cart = cartService.getCartByPrimaryKey2(cartId);
         Map<String, String> rMap = new HashMap<>();
         if(ordersService.addNewOrders(cart, customer))
-            rMap.put("addNewOrderResult", "success");
+            rMap.put("addNewOrdersResult", "success");
         else
-            rMap.put("addNewOrderResult", "fail");
+            rMap.put("addNewOrdersResult", "fail");
         return rMap;
     }
 }
