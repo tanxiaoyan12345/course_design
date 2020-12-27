@@ -135,14 +135,14 @@ html,body{
     padding-left: 5%;
 }
 
-.divShowCosmetic{
+.divShowClothes{
     height: 95%;
     width: 80%;
     margin-left: 10%;
     padding-left: 5%;
 }
 
-.divCosmetic{
+.divClothes{
     height: 32%;
     width: 18%;
     margin-right: 1%;
@@ -153,23 +153,23 @@ html,body{
     background-color: #ffffff;
 }
 
-.divCosmeticImage{
+.divClothesImage{
     height:65%;
     width: 100%;
 }
 
-.divCosmeticTitlePrice{
+.divClothesTitlePrice{
     height:35%;
     width: 100%;
 }
 
-.divCosmeticTitle{
+.divClothesTitle{
     height: 50%;
     width: 100%;
     font-weight: bold;
 }
 
-.divCosmeticPrice{
+.divClothesPrice{
     height: 50%;
     width: 100%;
     padding-top: 3%;

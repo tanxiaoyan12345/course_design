@@ -118,13 +118,13 @@ html,body{
     border-bottom: solid 2px #f5f5f5;
 }
 
-.cosmeticInfo{
+.clothesInfo{
     width: 70%;
     float: left;
     text-align: center;
 }
 
-.cosmeticPrice{
+.clothesPrice{
     width: 10%;
     float: left;
     text-align: center;

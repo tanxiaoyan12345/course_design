@@ -1,8 +1,8 @@
 package com.example.shopping.service;
 
 import com.example.shopping.entity.Cart;
+import com.example.shopping.entity.Clothes;
 import com.example.shopping.entity.Customer;
-import com.example.shopping.entity.Cosmetic;
 import com.example.shopping.mapper.CartMapper;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -29,7 +29,7 @@ public interface CartService {
     public Cart getCartByPrimaryKey2(Integer id);
 
     @Transactional
-    public boolean addToCart(Customer customer, Cosmetic cosmetic, int num);
+    public boolean addToCart(Customer customer, Clothes clothes, int num);
 
     @Transactional
     public boolean deleteItem(int cartId);

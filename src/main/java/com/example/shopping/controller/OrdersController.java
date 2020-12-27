@@ -3,7 +3,7 @@ package com.example.shopping.controller;
 import com.example.shopping.entity.Cart;
 import com.example.shopping.entity.Customer;
 import com.example.shopping.service.CartService;
-import com.example.shopping.service.OrderService;
+import com.example.shopping.service.OrdersService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -16,19 +16,19 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-public class OrderController {
+public class OrdersController {
     @Autowired
-    private OrderService orderService;
+    private OrdersService ordersService;
 
     @Autowired
     private CartService cartService;
 
-    public OrderService getOrderService() {
-        return orderService;
+    public OrdersService getOrderService() {
+        return ordersService;
     }
 
-    public void setOrderService(OrderService orderService) {
-        this.orderService = orderService;
+    public void setOrdersService(OrdersService ordersService) {
+        this.ordersService = ordersService;
     }
 
     public CartService getCartService() {
@@ -44,7 +44,7 @@ public class OrderController {
         Customer customer = (Customer) httpSession.getAttribute("customer");
         String username = customer.getUsername();
 
-        List<Map<String,Object>> list = orderService.getCartByUserName(username);
+        List<Map<String,Object>> list = ordersService.getCartByUserName(username);
 
         Map<String, List<Map<String,Object>>> rMap = new HashMap<>();
 
@@ -59,7 +59,7 @@ public class OrderController {
         int cartId = Integer.parseInt((String)map.get("cartId"));
         Cart cart = cartService.getCartByPrimaryKey2(cartId);
         Map<String, String> rMap = new HashMap<>();
-        if(orderService.addNewOrder(cart, customer))
+        if(ordersService.addNewOrders(cart, customer))
             rMap.put("addNewOrderResult", "success");
         else
             rMap.put("addNewOrderResult", "fail");

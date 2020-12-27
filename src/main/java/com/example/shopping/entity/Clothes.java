@@ -1,6 +1,6 @@
 package com.example.shopping.entity;
 
-public class Cosmetic {
+public class Clothes {
     private Integer id;
     private String name;
     private Double price;

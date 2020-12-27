@@ -9,38 +9,38 @@ $(function () {
 
     $.ajax({
         type: "post",
-        url: "/getOneCosmeticDetail",
+        url: "/getOneClothesDetail",
         data: {
             "id" : theRequest.id
         },
         dataType: "json",
         async: false,
         success: function (data) {
-            var cosmeticDetail = data.OneCosmeDetail;
+            var clothesDetail = data.OneClothDetail;
             //左半部分图片部分
-            $(".showImgLeft").append("<img src='"+ cosmeticDetail.cosmeImg.image + "' style='height: 100%;width: 100%'>");
+            $(".showImgLeft").append("<img src='"+ clothesDetail.clothImg.image + "' style='height: 100%;width: 100%'>");
 
             //右半部分信息内容
             $(".showTxtRight").append(
                 "<div class='divbrand'>\n" +
-                    "品牌|" +cosmeticDetail.cosme.brand +
+                    "品牌|" +clothesDetail.cloth.brand +
                 "</div>\n" +
                 "<div class='divtitle'>\n" +
-                    cosmeticDetail.cosme.name +
+                    clothesDetail.cloth.name +
                 "</div>\n" +
                 "<div class='divprice'>\n" +
                     "<p>售价</p>\n"+
                     "<div style='color: #a94442;font-size: 20px;padding-left: 15%;font-weight: bold'>\n" +
-                        "￥" + cosmeticDetail.cosme.price +".00\n" +
+                        "￥" + clothesDetail.cloth.price +".00\n" +
                     "</div>\n" +
                 "</div>\n" +
                 "<div class='divregion'>\n" +
                     "<div class='right'>运费</div>" +
-                    "<div class='left'style='font-weight: bold;'>至&nbsp" + cosmeticDetail.cosme.region +"&nbsp免运费</div>\n" +
+                    "<div class='left'style='font-weight: bold;'>至&nbsp" + clothesDetail.cloth.region +"&nbsp免运费</div>\n" +
                 "</div>\n" +
                 "<div class='divregion'>\n" +
                     "<div class='right'>服务</div>" +
-                    "<div class='left' style='font-weight: bold;'>本商品由&nbsp" + cosmeticDetail.cosme.warehouse +"&nbsp发货</div>\n" +
+                    "<div class='left' style='font-weight: bold;'>本商品由&nbsp" + clothesDetail.cloth.warehouse +"&nbsp发货</div>\n" +
                 "</div>\n" +
                 "<div class='divregion'>\n" +
                 "<div class='right'>说明</div>" +
@@ -52,7 +52,7 @@ $(function () {
                 "</div>\n" +
                 "<div class='divbtn'>\n" +
                     "<div class='rightbtn'>\n"+
-                        "<button type='submit' class='btnAddcart' onclick='addCart("+ cosmeticDetail.cosme.id +","+ 1 +",)'>加入购物车</button>\n" +
+                        "<button type='submit' class='btnAddcart' onclick='addCart("+ clothesDetail.cloth.id +","+ 1 +",)'>加入购物车</button>\n" +
                     "</div>\n"+
                     "<div class='leftbtn'>\n"+
                         "<button type='submit' class='btnPurchase'>立即购买</button>\n" +
@@ -97,7 +97,7 @@ function addCart(bookId, num) {
                     type: "post",
                     url: "/addToCart",
                     data: {
-                        "cosmeticId" : bookId,
+                        "clothesId" : bookId,
                         "num" : num
                     },
                     dataType: "json",

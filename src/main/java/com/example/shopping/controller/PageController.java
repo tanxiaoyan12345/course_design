@@ -13,9 +13,9 @@ public class PageController {
     public String mainPage(){
         return "mainPage";
     }
-    @RequestMapping("/cosmeticDetail")
-    public String cosmeticDetail(){
-        return "cosmeticDetail";
+    @RequestMapping("/clothesDetail")
+    public String clothesDetail(){
+        return "clothesDetail";
     }
     @RequestMapping("/cart")
     public String cart(){
@@ -25,7 +25,7 @@ public class PageController {
     public String confirm(){
         return "confirm";
     }
-    @RequestMapping("/order")
+    @RequestMapping("/orders")
     public String order(){
         return "order";
     }

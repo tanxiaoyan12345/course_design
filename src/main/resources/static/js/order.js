@@ -32,10 +32,10 @@ $(function () {
                     "<div class='divCartItem'>\n" +
                     "<div class='divCartItem-item'>\n" +
                         "<div class='divCartItem-imgDiv'>\n" +
-                            "<img src='"+ orderItem[i].cosmeticImg.image +"' style='height: 100%;width: 100%'>\n" +
+                            "<img src='"+ orderItem[i].clothesImg.image +"' style='height: 100%;width: 100%'>\n" +
                         "</div>\n" +
                         "<div class='divCartItem-title'>\n" +
-                            orderItem[i].orderInfo.cosmeticName+
+                            orderItem[i].orderInfo.clothesName+
                         "</div>\n" +
                     "</div>\n" +
                     "<div class='divCartItem-little'>\n" +

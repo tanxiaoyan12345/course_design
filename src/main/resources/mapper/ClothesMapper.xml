@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.shopping.mapper.CosmeticMapper">
-    <resultMap id="BaseResultMap" type="com.example.shopping.entity.Cosmetic">
+<mapper namespace="com.example.shopping.mapper.ClothesMapper">
+    <resultMap id="BaseResultMap" type="com.example.shopping.entity.Clothes">
         <id column="id" jdbcType="INTEGER" property="id" />
         <result column="name" jdbcType="VARCHAR" property="name"/>
         <result column="price" jdbcType="DOUBLE" property="price"/>
@@ -12,43 +12,40 @@
         <result column="category" jdbcType="VARCHAR" property="category"/>
         <result column="subcategory" jdbcType="VARCHAR" property="subcategory"/>
         <result column="production_date" jdbcType="VARCHAR" property="production_date"/>
-        <result column="shelf_life" jdbcType="VARCHAR" property="shelf_life"/>
         <result column="features" jdbcType="VARCHAR" property="features"/>
-        <result column="suitable_types" jdbcType="VARCHAR" property="suitable_types"/>
     </resultMap>
     <sql id="Base_Column_list">
-        id, name, price, brand, region, warehouse, inventory, category, subcategory, production_date, shelf_life,
-        features, suitable_types
+        id, name, price, brand, region, warehouse, inventory, category, subcategory, production_date,
+        features
     </sql>
     <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
-        delete from cosmetic where id = #{id, jdbcType=INTEGER}
+        delete from clothes where id = #{id, jdbcType=INTEGER}
     </delete>
-    <insert id="insert" parameterType="com.example.shopping.entity.Cosmetic">
-        insert into cosmetic (id, name, price, brand, region, warehouse, inventory, category, subcategory,
-        production_date, shelf_life, features, suitable_types,image) values (#{id, jdbcType=INTEGER},
+    <insert id="insert" parameterType="com.example.shopping.entity.Clothes">
+        insert into clothes (id, name, price, brand, region, warehouse, inventory, category, subcategory,
+        production_date, features,image) values (#{id, jdbcType=INTEGER},
         #{name, jdbcType=VARCHAR}, #{price, jdbcType=DOUBLE}, #{brand, jdbcType=VARCHAR}, #{region, jdbcType=VARCHAR},
         #{warehouse, jdbcType=VARCHAR}, #{inventory, jdbcType=VARCHAR}, #{category, jdbcType=VARCHAR},
-        #{subcategory, jdbcType=VARCHAR}, #{production_date, jdbcType=VARCHAR}, #{shelf_life, jdbcType=VARCHAR},
-        #{features, jdbcType=VARCHAR}, #{suitable_types, jdbcType=VARCHAR})
+        #{subcategory, jdbcType=VARCHAR}, #{production_date, jdbcType=VARCHAR},
+        #{features, jdbcType=VARCHAR})
     </insert>
     <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
-        select <include refid="Base_Column_list"/> from cosmetic where id = #{id, jdbcType=INTEGER}
+        select <include refid="Base_Column_list"/> from clothes where id = #{id, jdbcType=INTEGER}
     </select>
-    <select id="selectAllCosmetic" resultType="com.example.shopping.entity.Cosmetic">
-        select * from cosmetic
+    <select id="selectAllClothes" resultType="com.example.shopping.entity.Clothes">
+        select * from clothes
     </select>
-    <update id="updateByPrimaryKey" parameterType="com.example.shopping.entity.Cosmetic">
-        update cosmetic set
+    <update id="updateByPrimaryKey" parameterType="com.example.shopping.entity.Clothes">
+        update clothes set
         name = #{name, jdbcType=VARCHAR}, price = #{price, jdbcType=DOUBLE}, brand = #{brand, jdbcType=VARCHAR},
         region = #{region, jdbcType=VARCHAR}, warehouse = #{warehouse, jdbcType=VARCHAR},
         inventory = #{inventory, jdbcType=VARCHAR},category = #{category, jdbcType=VARCHAR},
         subcategory = #{subcategory, jdbcType=VARCHAR}, production_date = #{production_date, jdbcType=VARCHAR},
-        shelf_life = #{shelf_life, jdbcType=VARCHAR}, features = #{features, jdbcType=VARCHAR},
-        suitbale_types = #{suitable_types, jdbcType=VARCHAR}}
+        features = #{features, jdbcType=VARCHAR}}
         where id = #{id, jdbcType=INTEGER}
     </update>
-    <update id="updateByPrimaryKeySelective" parameterType="com.example.shopping.entity.Cosmetic">
-        update cosmetic
+    <update id="updateByPrimaryKeySelective" parameterType="com.example.shopping.entity.Clothes">
+        update clothes
         <set>
             <if test="name != null">name = #{name, jdbcType=VARCHAR},</if>
             <if test="price != null">price = #{price, jdbcType=DOUBLE},</if>
@@ -59,9 +56,7 @@
             <if test="category != null">category = #{category, jdbcType=VARCHAR},</if>
             <if test="subcategory != null">subcategory = #{subcategory, jdbcType=VARCHAR},</if>
             <if test="production_date != null">production_date = #{production_date, jdbcType=VARCHAR},</if>
-            <if test="shelf_life != null">shelf_life = #{shelf_life, jdbcType=VARCHAR},</if>
             <if test="features != null">features = #{features, jdbcType=VARCHAR},</if>
-            <if test="suitable_types != null">suitbale_types = #{suitable_types, jdbcType=VARCHAR},</if>
         </set>
         where id = #{id, jdbcType=INTEGER}
     </update>

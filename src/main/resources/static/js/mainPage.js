@@ -2,26 +2,26 @@ $(function () {
     //加载图书的信息
     $.ajax({
         type: "post",
-        url: "/getBestSaleCosmeticCore",
+        url: "/getBestSaleClothesCore",
         data: {},
         dataType: "json",
         async : false,
         success: function(data){
-            var list = data.bestSaleCosmeticCore;
+            var list = data.bestSaleClothesCore;
             for (var i = 0; i < list.length;i++){
                 $("#bestsale").append(
-                    "<div class='divCosmetic'>\n"+
-                        "<div class='divCosmeticImage'>\n"+
-                            "<img src='"+list[i].bestSaleCosmeImg.image+"'style='height: 100%; width: 100%'>"+
+                    "<div class='divClothes'>\n"+
+                        "<div class='divClothesImage'>\n"+
+                            "<img src='"+list[i].bestSaleClothImg.image+"'style='height: 100%; width: 100%'>"+
                         "</div>\n"+
-                        "<div class='divCosmeticTitlePrice'>\n"+
-                            "<div class='divCosmeticTitle'>\n"+
-                                list[i].bestSaleCosme.name+
+                        "<div class='divClothesTitlePrice'>\n"+
+                            "<div class='divClothesTitle'>\n"+
+                                list[i].bestSaleCloth.name+
                             "</div>\n"+
-                            "<div class='divCosmeticPrice'>\n"+"￥"+
-                                list[i].bestSaleCosme.price+
+                            "<div class='divClothesPrice'>\n"+"￥"+
+                                list[i].bestSaleCloth.price+
                                 "<button type='submit' class='btn btn-danger btn-sm' style='float: right'" +
-                                "onclick='openNewBookDetail(" +list[i].bestSaleCosme.id +")'>查看详情</button>"+
+                                "onclick='openNewBookDetail(" +list[i].bestSaleCloth.id +")'>查看详情</button>"+
                             "</div>\n"+
                         "</div>\n"+
                     "</div>");
@@ -49,6 +49,6 @@ $(function () {
 });
 
 function openNewBookDetail(id) {
-    window.location.href = "/cosmeticDetail?id="+id;
+    window.location.href = "/clothesDetail?id="+id;
 }
 

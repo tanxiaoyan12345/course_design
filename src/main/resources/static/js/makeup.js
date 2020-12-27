@@ -2,12 +2,12 @@ $(function () {
     //加载图书的信息
     $.ajax({
         type: "post",
-        url: "/getCosmeticCoreByMakeup",
+        url: "/getClothesCoreByMakeup",
         data: {},
         dataType: "json",
         async : false,
         success: function(data){
-            var list = data.CosmeCoreByMakeup;
+            var list = data.ClothCoreByMakeup;
             var yanyin = [];
             var fendi = [];
             var meibi = [];
@@ -15,124 +15,124 @@ $(function () {
             var yanxian = [];
             var saihong = [];
             for (var i = 0; i < list.length; i++){
-                if(list[i].Cosme.subcategory === "眼影"){
+                if(list[i].Cloth.subcategory === "眼影"){
                     yanyin.push(list[i]);
-                }else if(list[i].Cosme.subcategory === "粉底液"){
+                }else if(list[i].Cloth.subcategory === "粉底液"){
                     fendi.push(list[i]);
-                }else if(list[i].Cosme.subcategory === "眉笔"){
+                }else if(list[i].Cloth.subcategory === "眉笔"){
                     meibi.push(list[i]);
-                }else if(list[i].Cosme.subcategory === "口红"){
+                }else if(list[i].Cloth.subcategory === "口红"){
                     kouhong.push(list[i]);
-                }else if(list[i].Cosme.subcategory === "眼线"){
+                }else if(list[i].Cloth.subcategory === "眼线"){
                     yanxian.push(list[i]);
-                }else if(list[i].Cosme.subcategory === "腮红"){
+                }else if(list[i].Cloth.subcategory === "腮红"){
                     saihong.push(list[i]);
                 }
             }
             for (var i = 0; i < yanyin.length; i++){
                 $("#bestsale1").append(
-                    "<div class='divCosmetic'>\n"+
-                    "<div class='divCosmeticImage'>\n"+
-                    "<img src='"+yanyin[i].CosmeImg.image+"'style='height: 100%; width: 100%'>"+
+                    "<div class='divClothes'>\n"+
+                    "<div class='divClothesImage'>\n"+
+                    "<img src='"+yanyin[i].ClothImg.image+"'style='height: 100%; width: 100%'>"+
                     "</div>\n"+
-                    "<div class='divCosmeticTitlePrice'>\n"+
-                    "<div class='divCosmeticTitle'>\n"+
-                    yanyin[i].Cosme.name+
+                    "<div class='divClothesTitlePrice'>\n"+
+                    "<div class='divClothesTitle'>\n"+
+                    yanyin[i].Cloth.name+
                     "</div>\n"+
-                    "<div class='divCosmeticPrice'>\n"+"￥"+
-                    yanyin[i].Cosme.price+
+                    "<div class='divClothesPrice'>\n"+"￥"+
+                    yanyin[i].Cloth.price+
                     "<button type='submit' class='btn btn-danger btn-sm' style='float: right'" +
-                    "onclick='openNewBookDetail(" +yanyin[i].Cosme.id +")'>查看详情</button>"+
+                    "onclick='openNewBookDetail(" +yanyin[i].Cloth.id +")'>查看详情</button>"+
                     "</div>\n"+
                     "</div>\n"+
                     "</div>");
             }
             for (var i = 0; i < fendi.length; i++){
                 $("#bestsale2").append(
-                    "<div class='divCosmetic'>\n"+
-                    "<div class='divCosmeticImage'>\n"+
-                    "<img src='"+fendi[i].CosmeImg.image+"'style='height: 100%; width: 100%'>"+
+                    "<div class='divClothes'>\n"+
+                    "<div class='divClothesImage'>\n"+
+                    "<img src='"+fendi[i].ClothImg.image+"'style='height: 100%; width: 100%'>"+
                     "</div>\n"+
-                    "<div class='divCosmeticTitlePrice'>\n"+
-                    "<div class='divCosmeticTitle'>\n"+
-                    fendi[i].Cosme.name+
+                    "<div class='divClothesTitlePrice'>\n"+
+                    "<div class='divClothesTitle'>\n"+
+                    fendi[i].Cloth.name+
                     "</div>\n"+
-                    "<div class='divCosmeticPrice'>\n"+"￥"+
-                    fendi[i].Cosme.price+
+                    "<div class='divClothesPrice'>\n"+"￥"+
+                    fendi[i].Cloth.price+
                     "<button type='submit' class='btn btn-danger btn-sm' style='float: right'" +
-                    "onclick='openNewBookDetail(" +fendi[i].Cosme.id +")'>查看详情</button>"+
+                    "onclick='openNewBookDetail(" +fendi[i].Cloth.id +")'>查看详情</button>"+
                     "</div>\n"+
                     "</div>\n"+
                     "</div>");
             }
             for (var i = 0; i < meibi.length; i++){
                 $("#bestsale3").append(
-                    "<div class='divCosmetic'>\n"+
-                    "<div class='divCosmeticImage'>\n"+
-                    "<img src='"+meibi[i].CosmeImg.image+"'style='height: 100%; width: 100%'>"+
+                    "<div class='divClothes'>\n"+
+                    "<div class='divClothesImage'>\n"+
+                    "<img src='"+meibi[i].ClothImg.image+"'style='height: 100%; width: 100%'>"+
                     "</div>\n"+
-                    "<div class='divCosmeticTitlePrice'>\n"+
-                    "<div class='divCosmeticTitle'>\n"+
-                    meibi[i].Cosme.name+
+                    "<div class='divClothesTitlePrice'>\n"+
+                    "<div class='divClothesTitle'>\n"+
+                    meibi[i].Cloth.name+
                     "</div>\n"+
-                    "<div class='divCosmeticPrice'>\n"+"￥"+
-                    meibi[i].Cosme.price+
+                    "<div class='divClothesPrice'>\n"+"￥"+
+                    meibi[i].Cloth.price+
                     "<button type='submit' class='btn btn-danger btn-sm' style='float: right'" +
-                    "onclick='openNewBookDetail(" +meibi[i].Cosme.id +")'>查看详情</button>"+
+                    "onclick='openNewBookDetail(" +meibi[i].Cloth.id +")'>查看详情</button>"+
                     "</div>\n"+
                     "</div>\n"+
                     "</div>");
             }
             for (var i = 0; i < kouhong.length; i++){
                 $("#bestsale4").append(
-                    "<div class='divCosmetic2'>\n"+
-                    "<div class='divCosmeticImage'>\n"+
-                    "<img src='"+kouhong[i].CosmeImg.image+"'style='height: 100%; width: 100%'>"+
+                    "<div class='divClothes2'>\n"+
+                    "<div class='divClothesImage'>\n"+
+                    "<img src='"+kouhong[i].ClothImg.image+"'style='height: 100%; width: 100%'>"+
                     "</div>\n"+
-                    "<div class='divCosmeticTitlePrice'>\n"+
-                    "<div class='divCosmeticTitle'>\n"+
-                    kouhong[i].Cosme.name+
+                    "<div class='divClothesTitlePrice'>\n"+
+                    "<div class='divClothesTitle'>\n"+
+                    kouhong[i].Cloth.name+
                     "</div>\n"+
-                    "<div class='divCosmeticPrice'>\n"+"￥"+
-                    kouhong[i].Cosme.price+
+                    "<div class='divClothesPrice'>\n"+"￥"+
+                    kouhong[i].Cloth.price+
                     "<button type='submit' class='btn btn-danger btn-sm' style='float: right'" +
-                    "onclick='openNewBookDetail(" +kouhong[i].Cosme.id +")'>查看详情</button>"+
+                    "onclick='openNewBookDetail(" +kouhong[i].Cloth.id +")'>查看详情</button>"+
                     "</div>\n"+
                     "</div>\n"+
                     "</div>");
             }
             for (var i = 0; i < yanxian.length; i++){
                 $("#bestsale5").append(
-                    "<div class='divCosmetic'>\n"+
-                    "<div class='divCosmeticImage'>\n"+
-                    "<img src='"+yanxian[i].CosmeImg.image+"'style='height: 100%; width: 100%'>"+
+                    "<div class='divClothes'>\n"+
+                    "<div class='divClothesImage'>\n"+
+                    "<img src='"+yanxian[i].ClothImg.image+"'style='height: 100%; width: 100%'>"+
                     "</div>\n"+
-                    "<div class='divCosmeticTitlePrice'>\n"+
-                    "<div class='divCosmeticTitle'>\n"+
-                    yanxian[i].Cosme.name+
+                    "<div class='divClothesTitlePrice'>\n"+
+                    "<div class='divClothesTitle'>\n"+
+                    yanxian[i].Cloth.name+
                     "</div>\n"+
-                    "<div class='divCosmeticPrice'>\n"+"￥"+
-                    yanxian[i].Cosme.price+
+                    "<div class='divClothesPrice'>\n"+"￥"+
+                    yanxian[i].Cloth.price+
                     "<button type='submit' class='btn btn-danger btn-sm' style='float: right'" +
-                    "onclick='openNewBookDetail(" +yanxian[i].Cosme.id +")'>查看详情</button>"+
+                    "onclick='openNewBookDetail(" +yanxian[i].Cloth.id +")'>查看详情</button>"+
                     "</div>\n"+
                     "</div>\n"+
                     "</div>");
             }
             for (var i = 0; i < saihong.length; i++){
                 $("#bestsale6").append(
-                    "<div class='divCosmetic'>\n"+
-                    "<div class='divCosmeticImage'>\n"+
-                    "<img src='"+saihong[i].CosmeImg.image+"'style='height: 100%; width: 100%'>"+
+                    "<div class='divClothes'>\n"+
+                    "<div class='divClothesImage'>\n"+
+                    "<img src='"+saihong[i].ClothImg.image+"'style='height: 100%; width: 100%'>"+
                     "</div>\n"+
-                    "<div class='divCosmeticTitlePrice'>\n"+
-                    "<div class='divCosmeticTitle'>\n"+
-                    saihong[i].Cosme.name+
+                    "<div class='divClothesTitlePrice'>\n"+
+                    "<div class='divClothesTitle'>\n"+
+                    saihong[i].Cloth.name+
                     "</div>\n"+
-                    "<div class='divCosmeticPrice'>\n"+"￥"+
-                    saihong[i].Cosme.price+
+                    "<div class='divClothesPrice'>\n"+"￥"+
+                    saihong[i].Cloth.price+
                     "<button type='submit' class='btn btn-danger btn-sm' style='float: right'" +
-                    "onclick='openNewBookDetail(" +saihong[i].Cosme.id +")'>查看详情</button>"+
+                    "onclick='openNewBookDetail(" +saihong[i].Cloth.id +")'>查看详情</button>"+
                     "</div>\n"+
                     "</div>\n"+
                     "</div>");
@@ -160,6 +160,6 @@ $(function () {
 });
 
 function openNewBookDetail(id) {
-    window.location.href = "/cosmeticDetail?id="+id;
+    window.location.href = "/clothesDetail?id="+id;
 }
 

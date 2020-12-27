@@ -1,11 +1,11 @@
 package com.example.shopping.service.impl;
 
 import com.example.shopping.entity.Cart;
-import com.example.shopping.entity.Cosmetic;
+import com.example.shopping.entity.Clothes;
 import com.example.shopping.entity.Customer;
 import com.example.shopping.entity.Image;
 import com.example.shopping.mapper.CartMapper;
-import com.example.shopping.mapper.CosmeticMapper;
+import com.example.shopping.mapper.ClothesMapper;
 import com.example.shopping.mapper.ImageMapper;
 import com.example.shopping.service.CartService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +25,7 @@ public class CartServiceImpl implements CartService{
     private ImageMapper imageMapper;
 
     @Autowired
-    private CosmeticMapper cosmeticMapper;
+    private ClothesMapper clothesMapper;
 
     @Override
     public CartMapper getCartMapper(){
@@ -48,12 +48,12 @@ public class CartServiceImpl implements CartService{
         List<Map<String,Object>> rList = new ArrayList<>();
 
         for(Cart cart : cartList){
-            Image image = imageMapper.selectByPrimaryKey(cart.getCosmeticId());
-            Cosmetic cosmetic = cosmeticMapper.selectByPrimaryKey(cart.getCosmeticId());
+            Image image = imageMapper.selectByPrimaryKey(cart.getClothesId());
+            Clothes clothes = clothesMapper.selectByPrimaryKey(cart.getClothesId());
             Map<String, Object> map = new HashMap<>();
-            map.put("cosmeticInfo", cosmetic);
+            map.put("clothesInfo", clothes);
             map.put("cartInfo", cart);
-            map.put("cosmeticImg", image);
+            map.put("clothesImg", image);
             rList.add(map);
         }
         return rList;
@@ -62,10 +62,10 @@ public class CartServiceImpl implements CartService{
     @Override
     public Map<String, Object> getCartByPrimaryKey(Integer id){
         Cart cart = cartMapper.selectByPrimaryKey(id);
-        Image image = imageMapper.selectByPrimaryKey(cart.getCosmeticId());
+        Image image = imageMapper.selectByPrimaryKey(cart.getClothesId());
         Map<String, Object> map = new HashMap<>();
         map.put("cartInfo", cart);
-        map.put("cosmeticImg", image);
+        map.put("clothesImg", image);
         return map;
     }
 
@@ -75,15 +75,15 @@ public class CartServiceImpl implements CartService{
     }
 
     @Override
-    public boolean addToCart(Customer customer, Cosmetic cosmetic, int num){
+    public boolean addToCart(Customer customer, Clothes clothes, int num){
         Cart cart = new Cart();
-        cart.setCosmeticId(cosmetic.getId());
+        cart.setClothesId(clothes.getId());
         cart.setCustomerId(customer.getId());
-        cart.setCosmeticName(cosmetic.getName());
+        cart.setClothesName(clothes.getName());
         cart.setCustomerName(customer.getUsername());
-        cart.setPrice(cosmetic.getPrice());
+        cart.setPrice(clothes.getPrice());
         cart.setNumber(num);
-        cart.setSumPrice(cosmetic.getPrice()*num);
+        cart.setSumPrice(clothes.getPrice()*num);
         return cartMapper.insert(cart);
     }
 

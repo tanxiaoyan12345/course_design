@@ -48,10 +48,10 @@ $(function () {
                         "<div class='divCartItem' name=" + cartItem.cartInfo.id + ">\n" +
                         "<div class='divCartItem-item'>\n" +
                         "<div class='divCartItem-imgDiv'>\n" +
-                        "<img src='"+ cartItem.cosmeticImg.image +"' style='height: 100%;width: 100%'>\n" +
+                        "<img src='"+ cartItem.clothesImg.image +"' style='height: 100%;width: 100%'>\n" +
                         "</div>\n" +
                         "<div class='divCartItem-title'>\n" +
-                        cartItem.cartInfo.cosmeticName +
+                        cartItem.cartInfo.clothesName +
                         "</div>\n" +
                         "</div>\n" +
                         "<div class='divCartItem-little'>\n" +

@@ -2,30 +2,30 @@ package com.example.shopping.service;
 
 import com.example.shopping.entity.Cart;
 import com.example.shopping.entity.Customer;
-import com.example.shopping.entity.Order;
-import com.example.shopping.mapper.OrderMapper;
+import com.example.shopping.entity.Orders;
+import com.example.shopping.mapper.OrdersMapper;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Map;
 
-public interface OrderService {
+public interface OrdersService {
     @Transactional
-    public OrderMapper getOrderMapper();
+    public OrdersMapper getOrdersMapper();
 
     @Transactional
-    public void setOrderMapper(OrderMapper orderMapper);
+    public void setOrdersMapper(OrdersMapper ordersMapper);
 
     @Transactional
-    public Order getOrderByPrimaryKey(Integer id);
+    public Orders getOrdersByPrimaryKey(Integer id);
 
     @Transactional
     public List<Map<String,Object>> getCartByUserName(String username);
 
     @Transactional
-    public List<Order> getAllOrder();
+    public List<Orders> getAllOrders();
 
 
     @Transactional
-    public boolean addNewOrder(Cart cart, Customer customer);
+    public boolean addNewOrders(Cart cart, Customer customer);
 }

@@ -1,9 +1,8 @@
 package com.example.shopping.controller;
 
-import com.example.shopping.entity.Cart;
-import com.example.shopping.entity.Cosmetic;
+import com.example.shopping.entity.Clothes;
 import com.example.shopping.entity.Customer;
-import com.example.shopping.service.CosmeticService;
+import com.example.shopping.service.ClothesService;
 import com.example.shopping.service.CartService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,7 +21,7 @@ public class CartController {
     private CartService cartService;
 
     @Autowired
-    private CosmeticService cosmeticService;
+    private ClothesService clothesService;
 
     public CartService getCartService() {
         return cartService;
@@ -32,12 +31,12 @@ public class CartController {
         this.cartService = cartService;
     }
 
-    public CosmeticService getCosmeticService() {
-        return cosmeticService;
+    public ClothesService getClothesService() {
+        return clothesService;
     }
 
-    public void setCosmeticService(CosmeticService cosmeticService) {
-        this.cosmeticService = cosmeticService;
+    public void setClothesService(ClothesService clothesService) {
+        this.clothesService = clothesService;
     }
 
     @RequestMapping(value = "/getCartByUsername", method=RequestMethod.POST)
@@ -67,11 +66,11 @@ public class CartController {
     @RequestMapping(value = "/addToCart", method=RequestMethod.POST)
     public Map<String, String> addToCart(@RequestParam Map<String, Object> map, HttpSession httpSession){
         Customer customer = (Customer) httpSession.getAttribute("customer");
-        int cosmeticId = Integer.parseInt((String)map.get("cosmeticId"));
+        int clothesId = Integer.parseInt((String)map.get("clothesId"));
         int num = Integer.parseInt((String) map.get("num"));
-        Cosmetic cosmetic = cosmeticService.getCosmeticByPrimaryKey(cosmeticId);
+        Clothes clothes = clothesService.getClothesByPrimaryKey(clothesId);
         Map<String, String> rMap = new HashMap<>();
-        if(cartService.addToCart(customer, cosmetic, num))
+        if(cartService.addToCart(customer, clothes, num))
             rMap.put("addToCartResult", "success");
         else
             rMap.put("addToCartResult", "fail");
