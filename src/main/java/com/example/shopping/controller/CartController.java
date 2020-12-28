@@ -1,5 +1,6 @@
 package com.example.shopping.controller;
 
+import com.example.shopping.entity.Cart;
 import com.example.shopping.entity.Clothes;
 import com.example.shopping.entity.Customer;
 import com.example.shopping.service.ClothesService;
@@ -46,11 +47,14 @@ public class CartController {
         String username = customer.getUsername();
 
         List<Map<String,Object>> list = cartService.getCartByUserName(username);
-
+        Object value = (list.get(0).get("cartInfo"));
+        if (value instanceof Cart) {
+            System.out.println("carttt "+ ((Cart) value).getClothesName());
+        }
         Map<String, List<Map<String,Object>>> rMap = new HashMap<>();
 
         rMap.put("cartForOneUser", list);
-
+        System.out.println("result is " );
         return rMap;
     }
 
@@ -77,10 +81,11 @@ public class CartController {
         return rMap;
     }
 
-    @RequestMapping(value = "/deleteOneItem", method=RequestMethod.POST)
-    public Map<String, String> deleteOneItem(@RequestParam Map<String, Object> map, HttpSession httpSession){
-        int castId = Integer.parseInt((String)map.get("cartId"));
+    @RequestMapping(value = "/deleteItem", method=RequestMethod.POST)
+    public Map<String, String> deleteItem(@RequestParam Map<String, Object> map, HttpSession httpSession){
+        int castId = Integer.parseInt((String)map.get("id"));
         Map<String, String> rMap = new HashMap<>();
+        System.out.println("castId " + castId);
         if(cartService.deleteItem(castId))
             rMap.put("deleteItemResult", "success");
         else

@@ -22,7 +22,10 @@ $(function () {
                     async: false,
                     success: function (data) {
                         var cartItem = data.cartForOneUser;
+//                        assert(cartItem[0].cartInfo.ClothesName);
+                        console.log("cartinfo is " + data.result)
                         for (var i = 0; i < cartItem.length; i++){
+
                             $(".showCartList").after(
                                 "<div class='divCartItem' name=" + cartItem[i].cartInfo.id + ">\n" +
                                 "<div class='divCartItem-checkone'>\n" +
@@ -33,7 +36,7 @@ $(function () {
                                 "<img src='"+ cartItem[i].ClothesImg.image +"' style='height: 100%;width: 100%'>\n" +
                                 "</div>\n" +
                                 "<div class='divCartItem-title'>\n" +
-                                cartItem[i].cartInfo.ClothesName +
+                                cartItem[i].cartInfo.clothesName +
                                 "</div>\n" +
                                 "</div>\n" +
                                 "<div class='divCartItem-little'>\n" +
@@ -46,7 +49,7 @@ $(function () {
                                 "￥"+ cartItem[i].cartInfo.sumPrice + ".00" +"\n" +
                                 "</div>\n" +
                                 "<div class='divCartItem-little'>\n" +
-                                "<button type='button' class='btn btn-primary' onclick='deleteOneItem(" +
+                                "<button type='button' class='btn btn-primary' onclick='deleteItem(" +
                                 cartItem[i].cartInfo.id +")'>删除</button>\n" +
                                 "</div>\n" +
                                 "</div>");
@@ -86,10 +89,10 @@ function calculatePrices() {
     $(".divCart-cleanCart-sumPrice span").text("共￥"+sumPrice+"元");
 }
 
-function deleteOneItem(id) {
+function deleteItem(id) {
     $.ajax({
         type: "post",
-        url: "/deleteOneItem",
+        url: "/deleteItem",
         data: {
             "id" : id
         },
@@ -97,6 +100,12 @@ function deleteOneItem(id) {
         async: false,
         success: function (data) {
             $(".divCartItem[name="+id+"]").remove();
+        },
+        error: function (XMLHttpRequest,textStatus,errorThrown) {
+            alert("请求对象XMLHttpRequest: "+XMLHttpRequest);
+        	alert("错误类型textStatus: "+textStatus);
+        	alert("异常对象errorThrown: "+errorThrown);
+            console.log("失败啦")
         }
     });
 }

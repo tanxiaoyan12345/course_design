@@ -50,6 +50,8 @@ public class CartServiceImpl implements CartService{
         for(Cart cart : cartList){
             Image image = imageMapper.selectByPrimaryKey(cart.getClothesId());
             Clothes Clothes = ClothesMapper.selectByPrimaryKey(cart.getClothesId());
+            System.out.println("cart "+cart);
+            System.out.println("cart.clothesname "+cart.getClothesName());
             Map<String, Object> map = new HashMap<>();
             map.put("ClothesInfo", Clothes);
             map.put("cartInfo", cart);

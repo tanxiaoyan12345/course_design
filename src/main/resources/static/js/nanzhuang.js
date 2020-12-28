@@ -13,13 +13,13 @@ $(function () {
             var qiuzhuang = [];
             var dongzhuang = [];
             for (var i = 0; i < list.length; i++){
-                if(list[i].Clothes.subcategory === "春装"){
+                if(list[i].Clothes.subcategory === "chunzhuang"){
                     chunzhuang.push(list[i]);
-                }else if(list[i].Clothes.subcategory === "夏装"){
+                }else if(list[i].Clothes.subcategory === "xiazhuang"){
                     xiazhuang.push(list[i]);
-                }else if(list[i].Clothes.subcategory === "秋装"){
+                }else if(list[i].Clothes.subcategory === "qiuzhuang"){
                     qiuzhuang.push(list[i]);
-                }else if(list[i].Clothes.subcategory === "冬装"){
+                }else if(list[i].Clothes.subcategory === "dongzhuang"){
                     dongzhuang.push(list[i]);
                 }
             }

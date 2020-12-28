@@ -35,7 +35,7 @@ $(function () {
                             "<img src='"+ orderItem[i].ClothesImg.image +"' style='height: 100%;width: 100%'>\n" +
                         "</div>\n" +
                         "<div class='divCartItem-title'>\n" +
-                            orderItem[i].orderInfo.ClothesName+
+                            orderItem[i].orderInfo.clothesName+
                         "</div>\n" +
                     "</div>\n" +
                     "<div class='divCartItem-little'>\n" +

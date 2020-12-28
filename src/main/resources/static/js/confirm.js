@@ -51,7 +51,7 @@ $(function () {
                         "<img src='"+ cartItem.ClothesImg.image +"' style='height: 100%;width: 100%'>\n" +
                         "</div>\n" +
                         "<div class='divCartItem-title'>\n" +
-                        cartItem.cartInfo.ClothesName +
+                        cartItem.cartInfo.clothesName +
                         "</div>\n" +
                         "</div>\n" +
                         "<div class='divCartItem-little'>\n" +
@@ -89,7 +89,7 @@ function confirm() {
         var isSuccess = false;
         $.ajax({
             type: "post",
-            url: "/addNewOrder",
+            url: "/addNewOrders",
             data: {
                 "cartId" : confirmCartId[i]
             },
@@ -102,9 +102,9 @@ function confirm() {
         if(isSuccess){
             $.ajax({
                 type: "post",
-                url: "/deleteOneItem",
+                url: "/deleteItem",
                 data: {
-                    "cartId" : confirmCartId[i]
+                    "id" : confirmCartId[i]
                 },
                 dataType: "json",
                 async: false,

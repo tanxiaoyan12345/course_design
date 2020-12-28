@@ -95,26 +95,8 @@ html,body{
     margin-left: 10%;
 }
 
-.divShowClothesspecial{
-    height: 98%;
-    width: 80%;
-    padding-left: 5%;
-    margin-left: 10%;
-}
-
 .divClothes{
     height: 80%;
-    width: 18%;
-    margin-right: 1%;
-    margin-bottom: 1%;
-    border-radius: 5px;
-    float: left;
-    border: solid 3px #a94442;
-    background-color: #ffffff;
-}
-
-.divClothes2{
-    height: 40%;
     width: 18%;
     margin-right: 1%;
     margin-bottom: 1%;

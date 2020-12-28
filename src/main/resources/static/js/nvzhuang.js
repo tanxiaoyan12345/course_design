@@ -13,19 +13,19 @@ $(function () {
             var qiuzhuang = [];
             var dongzhuang = [];
             for (var i = 0; i < list.length; i++){
-                if(list[i].Clothes.subcategory === "春装"){
+                if(list[i].Clothes.subcategory === "chunzhuang"){
                     chunzhuang.push(list[i]);
-                }else if(list[i].Clothes.subcategory === "夏装"){
+                }else if(list[i].Clothes.subcategory === "xiazhuang"){
                     xiazhuang.push(list[i]);
-                }else if(list[i].Clothes.subcategory === "秋装"){
+                }else if(list[i].Clothes.subcategory === "qiuzhuang"){
                     qiuzhuang.push(list[i]);
-                }else if(list[i].Clothes.subcategory === "冬装"){
+                }else if(list[i].Clothes.subcategory === "dongzhuang"){
                     dongzhuang.push(list[i]);
                 }
             }
             for (var i = 0; i < chunzhuang.length; i++){
                 $("#bestsale1").append(
-                    "<div class='divClothes2'>\n"+
+                    "<div class='divClothes'>\n"+
                     "<div class='divClothesImage'>\n"+
                     "<img src='"+chunzhuang[i].ClothesImg.image+"'style='height: 100%; width: 100%'>"+
                     "</div>\n"+
@@ -44,19 +44,19 @@ $(function () {
             for (var i = 0; i < xiazhuang.length; i++){
                 $("#bestsale2").append(
                     "<div class='divClothes'>\n"+
-                    "<div class='divClothesImage'>\n"+
-                    "<img src='"+xiazhuang[i].ClothesImg.image+"'style='height: 100%; width: 100%'>"+
-                    "</div>\n"+
-                    "<div class='divClothesTitlePrice'>\n"+
-                    "<div class='divClothesTitle'>\n"+
-                    xiazhuang[i].Clothes.name+
-                    "</div>\n"+
-                    "<div class='divClothesPrice'>\n"+"￥"+
-                    xiazhuang[i].Clothes.price+
-                    "<button type='submit' class='btn btn-danger btn-sm' style='float: right'" +
-                    "onclick='openNewBookDetail(" +xiazhuang[i].Clothes.id +")'>查看详情</button>"+
-                    "</div>\n"+
-                    "</div>\n"+
+                        "<div class='divClothesImage'>\n"+
+                            "<img src='"+xiazhuang[i].ClothesImg.image+"'style='height: 100%; width: 100%'>"+
+                        "</div>\n"+
+                        "<div class='divClothesTitlePrice'>\n"+
+                            "<div class='divClothesTitle'>\n"+
+                                xiazhuang[i].Clothes.name+
+                            "</div>\n"+
+                            "<div class='divClothesPrice'>\n"+"￥"+
+                                xiazhuang[i].Clothes.price+
+                                "<button type='submit' class='btn btn-danger btn-sm' style='float: right'" +
+                                "onclick='openNewBookDetail(" +xiazhuang[i].Clothes.id +")'>查看详情</button>"+
+                            "</div>\n"+
+                        "</div>\n"+
                     "</div>");
             }
             for (var i = 0; i < qiuzhuang.length; i++){
@@ -95,6 +95,7 @@ $(function () {
                     "</div>\n"+
                     "</div>");
             }
+
         }
     });
     //加载用户信息
