@@ -1,0 +1,4 @@
+shipin=0
+tongzhuang=0
+nvzhuang=1
+nanzhuang=1

@@ -1,0 +1,945 @@
+STATUS | wrapper  | 2020/12/07 21:02:48 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2020/12/07 21:02:48 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/07 21:02:48 | JVM exited while loading the application.
+INFO   | jvm 1    | 2020/12/07 21:02:48 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/12/07 21:02:48 | Unrecognized VM option 'AggressiveOpts'
+INFO   | jvm 1    | 2020/12/07 21:02:48 | Error: Could not create the Java Virtual Machine.
+INFO   | jvm 1    | 2020/12/07 21:02:48 | Error: A fatal exception has occurred. Program will exit.
+STATUS | wrapper  | 2020/12/07 21:02:52 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/07 21:02:53 | JVM exited while loading the application.
+INFO   | jvm 2    | 2020/12/07 21:02:53 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 2    | 2020/12/07 21:02:53 | Unrecognized VM option 'AggressiveOpts'
+INFO   | jvm 2    | 2020/12/07 21:02:53 | Error: Could not create the Java Virtual Machine.
+INFO   | jvm 2    | 2020/12/07 21:02:53 | Error: A fatal exception has occurred. Program will exit.
+STATUS | wrapper  | 2020/12/07 21:02:57 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/07 21:02:57 | JVM exited while loading the application.
+INFO   | jvm 3    | 2020/12/07 21:02:57 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 3    | 2020/12/07 21:02:57 | Unrecognized VM option 'AggressiveOpts'
+INFO   | jvm 3    | 2020/12/07 21:02:57 | Error: Could not create the Java Virtual Machine.
+INFO   | jvm 3    | 2020/12/07 21:02:57 | Error: A fatal exception has occurred. Program will exit.
+STATUS | wrapper  | 2020/12/07 21:03:01 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/07 21:03:01 | JVM exited while loading the application.
+INFO   | jvm 4    | 2020/12/07 21:03:01 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 4    | 2020/12/07 21:03:01 | Unrecognized VM option 'AggressiveOpts'
+INFO   | jvm 4    | 2020/12/07 21:03:01 | Error: Could not create the Java Virtual Machine.
+INFO   | jvm 4    | 2020/12/07 21:03:01 | Error: A fatal exception has occurred. Program will exit.
+STATUS | wrapper  | 2020/12/07 21:03:05 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/07 21:03:05 | JVM exited while loading the application.
+INFO   | jvm 5    | 2020/12/07 21:03:05 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 5    | 2020/12/07 21:03:05 | Unrecognized VM option 'AggressiveOpts'
+INFO   | jvm 5    | 2020/12/07 21:03:05 | Error: Could not create the Java Virtual Machine.
+INFO   | jvm 5    | 2020/12/07 21:03:05 | Error: A fatal exception has occurred. Program will exit.
+FATAL  | wrapper  | 2020/12/07 21:03:05 | There were 5 failed launches in a row, each lasting less than 300 seconds.  Giving up.
+FATAL  | wrapper  | 2020/12/07 21:03:05 |   There may be a configuration problem: please check the logs.
+STATUS | wrapper  | 2020/12/07 21:03:05 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/12/07 22:28:30 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/12/07 22:28:30 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/07 22:28:30 | JVM exited while loading the application.
+INFO   | jvm 1    | 2020/12/07 22:28:30 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/12/07 22:28:30 | Unrecognized VM option 'AggressiveOpts'
+INFO   | jvm 1    | 2020/12/07 22:28:30 | Error: Could not create the Java Virtual Machine.
+INFO   | jvm 1    | 2020/12/07 22:28:30 | Error: A fatal exception has occurred. Program will exit.
+STATUS | wrapper  | 2020/12/07 22:28:35 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/07 22:28:35 | JVM exited while loading the application.
+INFO   | jvm 2    | 2020/12/07 22:28:35 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 2    | 2020/12/07 22:28:35 | Unrecognized VM option 'AggressiveOpts'
+INFO   | jvm 2    | 2020/12/07 22:28:35 | Error: Could not create the Java Virtual Machine.
+INFO   | jvm 2    | 2020/12/07 22:28:35 | Error: A fatal exception has occurred. Program will exit.
+STATUS | wrapper  | 2020/12/07 22:28:39 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/07 22:28:39 | JVM exited while loading the application.
+INFO   | jvm 3    | 2020/12/07 22:28:39 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 3    | 2020/12/07 22:28:39 | Unrecognized VM option 'AggressiveOpts'
+INFO   | jvm 3    | 2020/12/07 22:28:39 | Error: Could not create the Java Virtual Machine.
+INFO   | jvm 3    | 2020/12/07 22:28:39 | Error: A fatal exception has occurred. Program will exit.
+STATUS | wrapper  | 2020/12/07 22:28:43 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/07 22:28:43 | JVM exited while loading the application.
+INFO   | jvm 4    | 2020/12/07 22:28:43 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 4    | 2020/12/07 22:28:43 | Unrecognized VM option 'AggressiveOpts'
+INFO   | jvm 4    | 2020/12/07 22:28:43 | Error: Could not create the Java Virtual Machine.
+INFO   | jvm 4    | 2020/12/07 22:28:43 | Error: A fatal exception has occurred. Program will exit.
+STATUS | wrapper  | 2020/12/07 22:28:47 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/07 22:28:47 | JVM exited while loading the application.
+INFO   | jvm 5    | 2020/12/07 22:28:47 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 5    | 2020/12/07 22:28:47 | Unrecognized VM option 'AggressiveOpts'
+INFO   | jvm 5    | 2020/12/07 22:28:47 | Error: Could not create the Java Virtual Machine.
+INFO   | jvm 5    | 2020/12/07 22:28:47 | Error: A fatal exception has occurred. Program will exit.
+FATAL  | wrapper  | 2020/12/07 22:28:47 | There were 5 failed launches in a row, each lasting less than 300 seconds.  Giving up.
+FATAL  | wrapper  | 2020/12/07 22:28:47 |   There may be a configuration problem: please check the logs.
+STATUS | wrapper  | 2020/12/07 22:28:47 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/12/07 23:37:37 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/12/07 23:37:37 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/07 23:37:37 | JVM exited while loading the application.
+INFO   | jvm 1    | 2020/12/07 23:37:37 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/12/07 23:37:37 | Unrecognized VM option 'AggressiveOpts'
+INFO   | jvm 1    | 2020/12/07 23:37:37 | Error: Could not create the Java Virtual Machine.
+INFO   | jvm 1    | 2020/12/07 23:37:37 | Error: A fatal exception has occurred. Program will exit.
+STATUS | wrapper  | 2020/12/07 23:37:42 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/07 23:37:42 | JVM exited while loading the application.
+INFO   | jvm 2    | 2020/12/07 23:37:42 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 2    | 2020/12/07 23:37:42 | Unrecognized VM option 'AggressiveOpts'
+INFO   | jvm 2    | 2020/12/07 23:37:42 | Error: Could not create the Java Virtual Machine.
+INFO   | jvm 2    | 2020/12/07 23:37:42 | Error: A fatal exception has occurred. Program will exit.
+STATUS | wrapper  | 2020/12/07 23:37:46 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/07 23:37:46 | JVM exited while loading the application.
+INFO   | jvm 3    | 2020/12/07 23:37:46 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 3    | 2020/12/07 23:37:46 | Unrecognized VM option 'AggressiveOpts'
+INFO   | jvm 3    | 2020/12/07 23:37:46 | Error: Could not create the Java Virtual Machine.
+INFO   | jvm 3    | 2020/12/07 23:37:46 | Error: A fatal exception has occurred. Program will exit.
+STATUS | wrapper  | 2020/12/07 23:37:50 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/07 23:37:50 | JVM exited while loading the application.
+INFO   | jvm 4    | 2020/12/07 23:37:50 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 4    | 2020/12/07 23:37:50 | Unrecognized VM option 'AggressiveOpts'
+INFO   | jvm 4    | 2020/12/07 23:37:50 | Error: Could not create the Java Virtual Machine.
+INFO   | jvm 4    | 2020/12/07 23:37:50 | Error: A fatal exception has occurred. Program will exit.
+STATUS | wrapper  | 2020/12/07 23:37:54 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/07 23:37:55 | JVM exited while loading the application.
+INFO   | jvm 5    | 2020/12/07 23:37:55 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 5    | 2020/12/07 23:37:55 | Unrecognized VM option 'AggressiveOpts'
+INFO   | jvm 5    | 2020/12/07 23:37:55 | Error: Could not create the Java Virtual Machine.
+INFO   | jvm 5    | 2020/12/07 23:37:55 | Error: A fatal exception has occurred. Program will exit.
+FATAL  | wrapper  | 2020/12/07 23:37:55 | There were 5 failed launches in a row, each lasting less than 300 seconds.  Giving up.
+FATAL  | wrapper  | 2020/12/07 23:37:55 |   There may be a configuration problem: please check the logs.
+STATUS | wrapper  | 2020/12/07 23:37:55 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/12/07 23:42:58 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2020/12/07 23:42:59 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/07 23:42:59 | JVM exited while loading the application.
+INFO   | jvm 1    | 2020/12/07 23:42:59 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/12/07 23:42:59 | Unrecognized VM option 'AggressiveOpts'
+INFO   | jvm 1    | 2020/12/07 23:42:59 | Error: Could not create the Java Virtual Machine.
+INFO   | jvm 1    | 2020/12/07 23:42:59 | Error: A fatal exception has occurred. Program will exit.
+STATUS | wrapper  | 2020/12/07 23:43:03 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/07 23:43:03 | JVM exited while loading the application.
+INFO   | jvm 2    | 2020/12/07 23:43:03 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 2    | 2020/12/07 23:43:03 | Unrecognized VM option 'AggressiveOpts'
+INFO   | jvm 2    | 2020/12/07 23:43:03 | Error: Could not create the Java Virtual Machine.
+INFO   | jvm 2    | 2020/12/07 23:43:03 | Error: A fatal exception has occurred. Program will exit.
+STATUS | wrapper  | 2020/12/07 23:43:07 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/07 23:43:07 | JVM exited while loading the application.
+INFO   | jvm 3    | 2020/12/07 23:43:07 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 3    | 2020/12/07 23:43:07 | Unrecognized VM option 'AggressiveOpts'
+INFO   | jvm 3    | 2020/12/07 23:43:07 | Error: Could not create the Java Virtual Machine.
+INFO   | jvm 3    | 2020/12/07 23:43:07 | Error: A fatal exception has occurred. Program will exit.
+STATUS | wrapper  | 2020/12/07 23:43:11 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/07 23:43:11 | JVM exited while loading the application.
+INFO   | jvm 4    | 2020/12/07 23:43:11 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 4    | 2020/12/07 23:43:11 | Unrecognized VM option 'AggressiveOpts'
+INFO   | jvm 4    | 2020/12/07 23:43:11 | Error: Could not create the Java Virtual Machine.
+INFO   | jvm 4    | 2020/12/07 23:43:11 | Error: A fatal exception has occurred. Program will exit.
+STATUS | wrapper  | 2020/12/07 23:43:16 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/07 23:43:16 | JVM exited while loading the application.
+INFO   | jvm 5    | 2020/12/07 23:43:16 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 5    | 2020/12/07 23:43:16 | Unrecognized VM option 'AggressiveOpts'
+INFO   | jvm 5    | 2020/12/07 23:43:16 | Error: Could not create the Java Virtual Machine.
+INFO   | jvm 5    | 2020/12/07 23:43:16 | Error: A fatal exception has occurred. Program will exit.
+FATAL  | wrapper  | 2020/12/07 23:43:16 | There were 5 failed launches in a row, each lasting less than 300 seconds.  Giving up.
+FATAL  | wrapper  | 2020/12/07 23:43:16 |   There may be a configuration problem: please check the logs.
+STATUS | wrapper  | 2020/12/07 23:43:16 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/12/07 23:58:38 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2020/12/07 23:58:38 | Launching a JVM...
+INFO   | jvm 1    | 2020/12/07 23:58:39 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/12/07 23:58:39 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/12/07 23:58:39 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/12/07 23:58:39 | 
+INFO   | jvm 1    | 2020/12/07 23:58:40 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/12/07 23:58:40 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/Users/tanxiaoyan/Desktop/mycat/lib/Mycat-server-1.6.5-DEV.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/12/07 23:58:40 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/12/07 23:58:40 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/12/07 23:58:40 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/12/07 23:58:40 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/12/28 19:31:28 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/12/28 19:31:28 | Launching a JVM...
+INFO   | jvm 1    | 2020/12/28 19:31:29 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/12/28 19:31:29 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/12/28 19:31:29 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/12/28 19:31:29 | 
+INFO   | jvm 1    | 2020/12/28 19:31:30 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/12/28 19:31:30 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/Users/tanxiaoyan/Desktop/mycat/lib/Mycat-server-1.6.5-DEV.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/12/28 19:31:30 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/12/28 19:31:30 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/12/28 19:31:30 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/12/28 19:31:30 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/12/29 09:51:18 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2020/12/29 09:51:18 | Dumping JVM state.
+WARN   | wrapper  | 2020/12/29 09:51:18 | JVM process was still running after receiving a SIGCHLD signal.
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 2020-12-29 09:51:18
+INFO   | jvm 1    | 2020/12/29 09:51:18 | Full thread dump Java HotSpot(TM) 64-Bit Server VM (15.0.1+9-18 mixed mode, sharing):
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | Threads class SMR info:
+INFO   | jvm 1    | 2020/12/29 09:51:18 | _java_thread_list=0x00007fc2b58033d0, length=34, elements={
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 0x00007fc2b401b000, 0x00007fc2b3808000, 0x00007fc2b401b600, 0x00007fc2b401de00,
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 0x00007fc2b381a000, 0x00007fc2b481c600, 0x00007fc2b481cc00, 0x00007fc2b401e400,
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 0x00007fc2b3818800, 0x00007fc2b391ce00, 0x00007fc2b41cf400, 0x00007fc2b396ec00,
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 0x00007fc2b401ea00, 0x00007fc2b41cec00, 0x00007fc2b51d8a00, 0x00007fc2b4951400,
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 0x00007fc2b41e2600, 0x00007fc2b41e2c00, 0x00007fc2b3805400, 0x00007fc2b41e3200,
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 0x00007fc2b493ee00, 0x00007fc2b4951a00, 0x00007fc2b4245c00, 0x00007fc2b4952000,
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 0x00007fc2b51b2c00, 0x00007fc2b4245400, 0x00007fc2b51cc200, 0x00007fc2b493d800,
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 0x00007fc2b51b2400, 0x00007fc2b51cb800, 0x00007fc2b3971a00, 0x00007fc2b4267a00,
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 0x00007fc2b3970000, 0x00007fc2b51d2000
+INFO   | jvm 1    | 2020/12/29 09:51:18 | }
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "Reference Handler" #2 daemon prio=10 os_prio=31 cpu=0.71ms elapsed=11316.69s tid=0x00007fc2b401b000 nid=0x3803 waiting on condition  [0x000070000e3ee000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: RUNNABLE
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.ref.Reference.waitForReferencePendingList(java.base@15.0.1/Native Method)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.ref.Reference.processPendingReferences(java.base@15.0.1/Reference.java:241)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.ref.Reference$ReferenceHandler.run(java.base@15.0.1/Reference.java:213)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "Finalizer" #3 daemon prio=8 os_prio=31 cpu=0.17ms elapsed=11316.69s tid=0x00007fc2b3808000 nid=0x3b03 in Object.wait()  [0x000070000e4f1000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: WAITING (on object monitor)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Object.wait(java.base@15.0.1/Native Method)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- waiting on <0x00000007000f6d78> (a java.lang.ref.ReferenceQueue$Lock)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.ref.ReferenceQueue.remove(java.base@15.0.1/ReferenceQueue.java:155)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- locked <0x00000007000f6d78> (a java.lang.ref.ReferenceQueue$Lock)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.ref.ReferenceQueue.remove(java.base@15.0.1/ReferenceQueue.java:176)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.ref.Finalizer$FinalizerThread.run(java.base@15.0.1/Finalizer.java:170)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "Signal Dispatcher" #4 daemon prio=9 os_prio=31 cpu=0.77ms elapsed=11316.69s tid=0x00007fc2b401b600 nid=0xa503 waiting on condition  [0x0000000000000000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: RUNNABLE
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "Service Thread" #5 daemon prio=9 os_prio=31 cpu=282.17ms elapsed=11316.69s tid=0x00007fc2b401de00 nid=0xa303 runnable  [0x0000000000000000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: RUNNABLE
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "C2 CompilerThread0" #6 daemon prio=9 os_prio=31 cpu=5326.47ms elapsed=11316.69s tid=0x00007fc2b381a000 nid=0xa003 waiting on condition  [0x0000000000000000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: RUNNABLE
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    No compile task
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "C1 CompilerThread0" #8 daemon prio=9 os_prio=31 cpu=1048.78ms elapsed=11316.68s tid=0x00007fc2b481c600 nid=0x5e03 waiting on condition  [0x0000000000000000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: RUNNABLE
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    No compile task
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "Sweeper thread" #9 daemon prio=9 os_prio=31 cpu=4.20ms elapsed=11316.67s tid=0x00007fc2b481cc00 nid=0x9c03 runnable  [0x0000000000000000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: RUNNABLE
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "Notification Thread" #10 daemon prio=9 os_prio=31 cpu=0.06ms elapsed=11316.64s tid=0x00007fc2b401e400 nid=0x6003 runnable  [0x0000000000000000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: RUNNABLE
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "Common-Cleaner" #11 daemon prio=8 os_prio=31 cpu=11.10ms elapsed=11316.64s tid=0x00007fc2b3818800 nid=0x9503 in Object.wait()  [0x000070000ed09000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: TIMED_WAITING (on object monitor)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Object.wait(java.base@15.0.1/Native Method)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- waiting on <0x00000007000f7578> (a java.lang.ref.ReferenceQueue$Lock)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.ref.ReferenceQueue.remove(java.base@15.0.1/ReferenceQueue.java:155)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- locked <0x00000007000f7578> (a java.lang.ref.ReferenceQueue$Lock)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at jdk.internal.ref.CleanerImpl.run(java.base@15.0.1/CleanerImpl.java:148)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Thread.run(java.base@15.0.1/Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at jdk.internal.misc.InnocuousThread.run(java.base@15.0.1/InnocuousThread.java:134)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "Wrapper-Control-Event-Monitor" #13 daemon prio=5 os_prio=31 cpu=3661.68ms elapsed=11316.46s tid=0x00007fc2b391ce00 nid=0x6503 runnable  [0x000070000ee0c000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: RUNNABLE
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.tanukisoftware.wrapper.WrapperManager.controlEvent(WrapperManager.java:3249)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.tanukisoftware.wrapper.WrapperManager.access$2300(WrapperManager.java:103)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.tanukisoftware.wrapper.WrapperManager$3.run(WrapperManager.java:724)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "Log4j2-AsyncLoggerConfig-1" #16 daemon prio=5 os_prio=31 cpu=2412.47ms elapsed=11315.89s tid=0x00007fc2b41cf400 nid=0x8d03 runnable  [0x000070000f31a000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: RUNNABLE
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy.isTriggeringEvent(CompositeTriggeringPolicy.java:61)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.core.appender.rolling.RollingFileManager.checkRollover(RollingFileManager.java:118)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- locked <0x000000070640cbc8> (a org.apache.logging.log4j.core.appender.rolling.RollingFileManager)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.core.appender.RollingFileAppender.append(RollingFileAppender.java:87)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:152)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:125)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:116)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:390)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.asyncCallAppenders(AsyncLoggerConfig.java:103)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor$Log4jEventWrapperHandler.onEvent(AsyncLoggerConfigDisruptor.java:90)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor$Log4jEventWrapperHandler.onEvent(AsyncLoggerConfigDisruptor.java:76)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:129)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@15.0.1/ThreadPoolExecutor.java:1130)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@15.0.1/ThreadPoolExecutor.java:630)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Thread.run(java.base@15.0.1/Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "Wrapper-Connection" #18 daemon prio=10 os_prio=31 cpu=348.39ms elapsed=11315.75s tid=0x00007fc2b396ec00 nid=0x8a03 runnable  [0x000070000f41e000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: RUNNABLE
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.NioSocketImpl.timedRead(java.base@15.0.1/NioSocketImpl.java:282)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.NioSocketImpl.implRead(java.base@15.0.1/NioSocketImpl.java:309)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.NioSocketImpl.read(java.base@15.0.1/NioSocketImpl.java:350)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.NioSocketImpl$1.read(java.base@15.0.1/NioSocketImpl.java:803)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.net.Socket$SocketInputStream.read(java.base@15.0.1/Socket.java:981)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.net.Socket$SocketInputStream.read(java.base@15.0.1/Socket.java:976)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.io.DataInputStream.readByte(java.base@15.0.1/DataInputStream.java:269)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.tanukisoftware.wrapper.WrapperManager.handleSocket(WrapperManager.java:3737)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.tanukisoftware.wrapper.WrapperManager.run(WrapperManager.java:4084)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Thread.run(java.base@15.0.1/Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "DestroyJavaVM" #19 prio=5 os_prio=31 cpu=608.66ms elapsed=11315.72s tid=0x00007fc2b401ea00 nid=0x2603 waiting on condition  [0x0000000000000000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: RUNNABLE
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "Thread-0" #22 daemon prio=5 os_prio=31 cpu=3467.07ms elapsed=11315.63s tid=0x00007fc2b41cec00 nid=0x8403 waiting on condition  [0x000070000f727000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: TIMED_WAITING (parking)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at jdk.internal.misc.Unsafe.park(java.base@15.0.1/Native Method)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- parking to wait for  <0x0000000706682ce8> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.locks.LockSupport.parkNanos(java.base@15.0.1/LockSupport.java:252)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(java.base@15.0.1/AbstractQueuedSynchronizer.java:1661)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedBlockingQueue.poll(java.base@15.0.1/LinkedBlockingQueue.java:460)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.route.MyCATSequnceProcessor$ExecuteThread.run(MyCATSequnceProcessor.java:108)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "net.sf.ehcache.CacheManager@78ff9c38" #25 daemon prio=5 os_prio=31 cpu=0.11ms elapsed=11315.44s tid=0x00007fc2b51d8a00 nid=0x740b in Object.wait()  [0x000070000f82a000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: WAITING (on object monitor)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Object.wait(java.base@15.0.1/Native Method)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- waiting on <0x0000000706657360> (a java.util.TaskQueue)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Object.wait(java.base@15.0.1/Object.java:321)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.TimerThread.mainLoop(java.base@15.0.1/Timer.java:527)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- locked <0x0000000706657360> (a java.util.TaskQueue)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.TimerThread.run(java.base@15.0.1/Timer.java:506)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "$_NIOREACTOR-0-RW" #27 prio=5 os_prio=31 cpu=1054.11ms elapsed=11315.24s tid=0x00007fc2b4951400 nid=0x7607 runnable  [0x000070000f92d000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: RUNNABLE
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.KQueue.poll(java.base@15.0.1/Native Method)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.KQueueSelectorImpl.doSelect(java.base@15.0.1/KQueueSelectorImpl.java:122)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.SelectorImpl.lockAndDoSelect(java.base@15.0.1/SelectorImpl.java:129)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- locked <0x0000000706682ff0> (a sun.nio.ch.Util$2)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- locked <0x0000000706682f98> (a sun.nio.ch.KQueueSelectorImpl)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.SelectorImpl.select(java.base@15.0.1/SelectorImpl.java:141)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.net.NIOReactor$RW.run(NIOReactor.java:91)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Thread.run(java.base@15.0.1/Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "$_NIOREACTOR-1-RW" #28 prio=5 os_prio=31 cpu=1204.23ms elapsed=11315.24s tid=0x00007fc2b41e2600 nid=0x7e03 runnable  [0x000070000fa30000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: RUNNABLE
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.KQueue.poll(java.base@15.0.1/Native Method)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.KQueueSelectorImpl.doSelect(java.base@15.0.1/KQueueSelectorImpl.java:122)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.SelectorImpl.lockAndDoSelect(java.base@15.0.1/SelectorImpl.java:129)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- locked <0x00000007066575b0> (a sun.nio.ch.Util$2)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- locked <0x0000000706657558> (a sun.nio.ch.KQueueSelectorImpl)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.SelectorImpl.select(java.base@15.0.1/SelectorImpl.java:141)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.net.NIOReactor$RW.run(NIOReactor.java:91)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Thread.run(java.base@15.0.1/Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "$_NIOREACTOR-2-RW" #29 prio=5 os_prio=31 cpu=1170.77ms elapsed=11315.24s tid=0x00007fc2b41e2c00 nid=0x7b03 runnable  [0x000070000fb32000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: RUNNABLE
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor.enqueue(AsyncLoggerConfigDisruptor.java:270)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor.enqueueEvent(AsyncLoggerConfigDisruptor.java:252)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.core.async.AsyncLoggerConfigDisruptor.tryCallAppendersInBackground(AsyncLoggerConfigDisruptor.java:232)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.core.async.AsyncLoggerConfig.callAppenders(AsyncLoggerConfig.java:96)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:378)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:362)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:352)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:147)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:1016)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:964)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at org.apache.logging.slf4j.Log4jLogger.info(Log4jLogger.java:178)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.net.AbstractConnection.close(AbstractConnection.java:508)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.backend.mysql.nio.MySQLConnection.close(MySQLConnection.java:513)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.net.AbstractConnection.onReadData(AbstractConnection.java:291)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.net.NIOSocketWR.asynRead(NIOSocketWR.java:190)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.net.AbstractConnection.asynRead(AbstractConnection.java:273)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.net.NIOReactor$RW.run(NIOReactor.java:102)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Thread.run(java.base@15.0.1/Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "$_NIOREACTOR-3-RW" #30 prio=5 os_prio=31 cpu=1024.29ms elapsed=11315.24s tid=0x00007fc2b3805400 nid=0x15203 runnable  [0x000070000fc36000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: RUNNABLE
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.KQueue.poll(java.base@15.0.1/Native Method)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.KQueueSelectorImpl.doSelect(java.base@15.0.1/KQueueSelectorImpl.java:122)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.SelectorImpl.lockAndDoSelect(java.base@15.0.1/SelectorImpl.java:129)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- locked <0x0000000706683258> (a sun.nio.ch.Util$2)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- locked <0x0000000706683200> (a sun.nio.ch.KQueueSelectorImpl)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.SelectorImpl.select(java.base@15.0.1/SelectorImpl.java:141)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.net.NIOReactor$RW.run(NIOReactor.java:91)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Thread.run(java.base@15.0.1/Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "$_NIOConnector" #31 prio=5 os_prio=31 cpu=3742.32ms elapsed=11315.24s tid=0x00007fc2b41e3200 nid=0x14f03 runnable  [0x000070000fd39000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: RUNNABLE
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.Net.pollConnect(java.base@15.0.1/Native Method)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.Net.pollConnectNow(java.base@15.0.1/Net.java:660)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.SocketChannelImpl.finishConnect(java.base@15.0.1/SocketChannelImpl.java:875)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.net.NIOConnector.finishConnect(NIOConnector.java:137)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.net.NIOConnector.finishConnect(NIOConnector.java:115)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.net.NIOConnector.run(NIOConnector.java:83)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "$_MyCatManager" #32 prio=5 os_prio=31 cpu=296.10ms elapsed=11315.23s tid=0x00007fc2b493ee00 nid=0x14d03 runnable  [0x000070000fe3c000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: RUNNABLE
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.KQueue.poll(java.base@15.0.1/Native Method)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.KQueueSelectorImpl.doSelect(java.base@15.0.1/KQueueSelectorImpl.java:122)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.SelectorImpl.lockAndDoSelect(java.base@15.0.1/SelectorImpl.java:129)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- locked <0x0000000706683470> (a sun.nio.ch.Util$2)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- locked <0x0000000706683418> (a sun.nio.ch.KQueueSelectorImpl)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.SelectorImpl.select(java.base@15.0.1/SelectorImpl.java:141)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.net.NIOAcceptor.run(NIOAcceptor.java:87)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "$_MyCatServer" #33 prio=5 os_prio=31 cpu=336.95ms elapsed=11315.23s tid=0x00007fc2b4951a00 nid=0x14b03 runnable  [0x000070000ff3f000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: RUNNABLE
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.Net.setIntOption0(java.base@15.0.1/Native Method)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.Net.setSocketOption(java.base@15.0.1/Net.java:450)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.Net.setSocketOption(java.base@15.0.1/Net.java:388)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.SocketChannelImpl.setOption(java.base@15.0.1/SocketChannelImpl.java:265)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- locked <0x000000070fac7768> (a java.lang.Object)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at sun.nio.ch.SocketChannelImpl.setOption(java.base@15.0.1/SocketChannelImpl.java:68)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.net.factory.FrontendConnectionFactory.make(FrontendConnectionFactory.java:41)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.net.NIOAcceptor.accept(NIOAcceptor.java:111)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.net.NIOAcceptor.run(NIOAcceptor.java:92)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "BusinessExecutor0" #34 daemon prio=5 os_prio=31 cpu=127.84ms elapsed=11315.23s tid=0x00007fc2b4245c00 nid=0x14a03 waiting on condition  [0x0000700010042000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: WAITING (parking)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at jdk.internal.misc.Unsafe.park(java.base@15.0.1/Native Method)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- parking to wait for  <0x00000007066836a8> (a java.util.concurrent.LinkedTransferQueue)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.locks.LockSupport.park(java.base@15.0.1/LockSupport.java:211)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.awaitMatch(java.base@15.0.1/LinkedTransferQueue.java:743)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.xfer(java.base@15.0.1/LinkedTransferQueue.java:684)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.take(java.base@15.0.1/LinkedTransferQueue.java:1366)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.getTask(java.base@15.0.1/ThreadPoolExecutor.java:1056)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@15.0.1/ThreadPoolExecutor.java:1116)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@15.0.1/ThreadPoolExecutor.java:630)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Thread.run(java.base@15.0.1/Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "BusinessExecutor1" #35 daemon prio=5 os_prio=31 cpu=123.61ms elapsed=11315.23s tid=0x00007fc2b4952000 nid=0xb503 waiting on condition  [0x0000700010145000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: WAITING (parking)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at jdk.internal.misc.Unsafe.park(java.base@15.0.1/Native Method)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- parking to wait for  <0x00000007066836a8> (a java.util.concurrent.LinkedTransferQueue)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.locks.LockSupport.park(java.base@15.0.1/LockSupport.java:211)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.awaitMatch(java.base@15.0.1/LinkedTransferQueue.java:743)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.xfer(java.base@15.0.1/LinkedTransferQueue.java:684)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.take(java.base@15.0.1/LinkedTransferQueue.java:1366)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.getTask(java.base@15.0.1/ThreadPoolExecutor.java:1056)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@15.0.1/ThreadPoolExecutor.java:1116)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@15.0.1/ThreadPoolExecutor.java:630)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Thread.run(java.base@15.0.1/Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "BusinessExecutor2" #36 daemon prio=5 os_prio=31 cpu=125.22ms elapsed=11315.23s tid=0x00007fc2b51b2c00 nid=0xb603 waiting on condition  [0x0000700010248000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: WAITING (parking)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at jdk.internal.misc.Unsafe.park(java.base@15.0.1/Native Method)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- parking to wait for  <0x00000007066836a8> (a java.util.concurrent.LinkedTransferQueue)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.locks.LockSupport.park(java.base@15.0.1/LockSupport.java:211)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.awaitMatch(java.base@15.0.1/LinkedTransferQueue.java:743)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.xfer(java.base@15.0.1/LinkedTransferQueue.java:684)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.take(java.base@15.0.1/LinkedTransferQueue.java:1366)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.getTask(java.base@15.0.1/ThreadPoolExecutor.java:1056)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@15.0.1/ThreadPoolExecutor.java:1116)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@15.0.1/ThreadPoolExecutor.java:630)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Thread.run(java.base@15.0.1/Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "BusinessExecutor3" #37 daemon prio=5 os_prio=31 cpu=120.55ms elapsed=11315.22s tid=0x00007fc2b4245400 nid=0x14303 waiting on condition  [0x000070001034b000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: WAITING (parking)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at jdk.internal.misc.Unsafe.park(java.base@15.0.1/Native Method)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- parking to wait for  <0x00000007066836a8> (a java.util.concurrent.LinkedTransferQueue)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.locks.LockSupport.park(java.base@15.0.1/LockSupport.java:211)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.awaitMatch(java.base@15.0.1/LinkedTransferQueue.java:743)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.xfer(java.base@15.0.1/LinkedTransferQueue.java:684)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.take(java.base@15.0.1/LinkedTransferQueue.java:1366)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.getTask(java.base@15.0.1/ThreadPoolExecutor.java:1056)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@15.0.1/ThreadPoolExecutor.java:1116)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@15.0.1/ThreadPoolExecutor.java:630)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Thread.run(java.base@15.0.1/Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "BusinessExecutor4" #38 daemon prio=5 os_prio=31 cpu=119.85ms elapsed=11315.22s tid=0x00007fc2b51cc200 nid=0xbb03 waiting on condition  [0x000070001044e000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: WAITING (parking)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at jdk.internal.misc.Unsafe.park(java.base@15.0.1/Native Method)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- parking to wait for  <0x00000007066836a8> (a java.util.concurrent.LinkedTransferQueue)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.locks.LockSupport.park(java.base@15.0.1/LockSupport.java:211)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.awaitMatch(java.base@15.0.1/LinkedTransferQueue.java:743)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.xfer(java.base@15.0.1/LinkedTransferQueue.java:684)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.take(java.base@15.0.1/LinkedTransferQueue.java:1366)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.getTask(java.base@15.0.1/ThreadPoolExecutor.java:1056)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@15.0.1/ThreadPoolExecutor.java:1116)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@15.0.1/ThreadPoolExecutor.java:630)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Thread.run(java.base@15.0.1/Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "BusinessExecutor5" #39 daemon prio=5 os_prio=31 cpu=117.95ms elapsed=11315.22s tid=0x00007fc2b493d800 nid=0xbe03 waiting on condition  [0x0000700010551000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: WAITING (parking)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at jdk.internal.misc.Unsafe.park(java.base@15.0.1/Native Method)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- parking to wait for  <0x00000007066836a8> (a java.util.concurrent.LinkedTransferQueue)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.locks.LockSupport.park(java.base@15.0.1/LockSupport.java:211)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.awaitMatch(java.base@15.0.1/LinkedTransferQueue.java:743)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.xfer(java.base@15.0.1/LinkedTransferQueue.java:684)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.take(java.base@15.0.1/LinkedTransferQueue.java:1366)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.getTask(java.base@15.0.1/ThreadPoolExecutor.java:1056)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@15.0.1/ThreadPoolExecutor.java:1116)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@15.0.1/ThreadPoolExecutor.java:630)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Thread.run(java.base@15.0.1/Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "BusinessExecutor6" #40 daemon prio=5 os_prio=31 cpu=117.27ms elapsed=11315.22s tid=0x00007fc2b51b2400 nid=0x13e03 waiting on condition  [0x0000700010654000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: WAITING (parking)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at jdk.internal.misc.Unsafe.park(java.base@15.0.1/Native Method)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- parking to wait for  <0x00000007066836a8> (a java.util.concurrent.LinkedTransferQueue)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.locks.LockSupport.park(java.base@15.0.1/LockSupport.java:211)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.awaitMatch(java.base@15.0.1/LinkedTransferQueue.java:743)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.xfer(java.base@15.0.1/LinkedTransferQueue.java:684)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.take(java.base@15.0.1/LinkedTransferQueue.java:1366)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.getTask(java.base@15.0.1/ThreadPoolExecutor.java:1056)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@15.0.1/ThreadPoolExecutor.java:1116)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@15.0.1/ThreadPoolExecutor.java:630)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Thread.run(java.base@15.0.1/Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "BusinessExecutor7" #41 daemon prio=5 os_prio=31 cpu=121.70ms elapsed=11315.22s tid=0x00007fc2b51cb800 nid=0x13b03 waiting on condition  [0x0000700010757000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: WAITING (parking)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at jdk.internal.misc.Unsafe.park(java.base@15.0.1/Native Method)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- parking to wait for  <0x00000007066836a8> (a java.util.concurrent.LinkedTransferQueue)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.locks.LockSupport.park(java.base@15.0.1/LockSupport.java:211)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.awaitMatch(java.base@15.0.1/LinkedTransferQueue.java:743)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.xfer(java.base@15.0.1/LinkedTransferQueue.java:684)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.LinkedTransferQueue.take(java.base@15.0.1/LinkedTransferQueue.java:1366)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.getTask(java.base@15.0.1/ThreadPoolExecutor.java:1056)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@15.0.1/ThreadPoolExecutor.java:1116)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@15.0.1/ThreadPoolExecutor.java:630)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Thread.run(java.base@15.0.1/Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "pool-3-thread-1" #42 prio=5 os_prio=31 cpu=21672.96ms elapsed=11315.01s tid=0x00007fc2b3971a00 nid=0x13803 runnable  [0x0000700010859000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: RUNNABLE
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.siftUp(java.base@15.0.1/ScheduledThreadPoolExecutor.java:976)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.offer(java.base@15.0.1/ScheduledThreadPoolExecutor.java:1110)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.add(java.base@15.0.1/ScheduledThreadPoolExecutor.java:1127)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.add(java.base@15.0.1/ScheduledThreadPoolExecutor.java:899)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ScheduledThreadPoolExecutor.reExecutePeriodic(java.base@15.0.1/ScheduledThreadPoolExecutor.java:358)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(java.base@15.0.1/ScheduledThreadPoolExecutor.java:307)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@15.0.1/ThreadPoolExecutor.java:1130)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@15.0.1/ThreadPoolExecutor.java:630)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Thread.run(java.base@15.0.1/Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "Timer0" #43 daemon prio=5 os_prio=31 cpu=572.22ms elapsed=11315.01s tid=0x00007fc2b4267a00 nid=0x13603 runnable  [0x000070001095c000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: RUNNABLE
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.net.NIOProcessor.checkBackendCons(NIOProcessor.java:149)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.MycatServer$6$1.run(MycatServer.java:815)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@15.0.1/ThreadPoolExecutor.java:1130)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@15.0.1/ThreadPoolExecutor.java:630)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Thread.run(java.base@15.0.1/Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "Timer1" #44 daemon prio=5 os_prio=31 cpu=561.57ms elapsed=11315.01s tid=0x00007fc2b3970000 nid=0xc503 runnable  [0x0000700010a60000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: RUNNABLE
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.net.AbstractConnection.isIdleTimeout(AbstractConnection.java:178)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.net.AbstractConnection.idleCheck(AbstractConnection.java:520)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.net.NIOProcessor.backendCheck(NIOProcessor.java:220)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.net.NIOProcessor.checkBackendCons(NIOProcessor.java:149)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at io.mycat.MycatServer$6$1.run(MycatServer.java:815)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@15.0.1/ThreadPoolExecutor.java:1130)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@15.0.1/ThreadPoolExecutor.java:630)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Thread.run(java.base@15.0.1/Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "pool-2-thread-1" #45 prio=5 os_prio=31 cpu=4.66ms elapsed=11315.01s tid=0x00007fc2b51d2000 nid=0x13203 waiting on condition  [0x0000700010b63000]
+INFO   | jvm 1    | 2020/12/29 09:51:18 |    java.lang.Thread.State: TIMED_WAITING (parking)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at jdk.internal.misc.Unsafe.park(java.base@15.0.1/Native Method)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	- parking to wait for  <0x0000000706602048> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.locks.LockSupport.parkNanos(java.base@15.0.1/LockSupport.java:252)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(java.base@15.0.1/AbstractQueuedSynchronizer.java:1661)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(java.base@15.0.1/ScheduledThreadPoolExecutor.java:1182)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(java.base@15.0.1/ScheduledThreadPoolExecutor.java:899)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.getTask(java.base@15.0.1/ThreadPoolExecutor.java:1056)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@15.0.1/ThreadPoolExecutor.java:1116)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@15.0.1/ThreadPoolExecutor.java:630)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 	at java.lang.Thread.run(java.base@15.0.1/Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "VM Thread" os_prio=31 cpu=351.53ms elapsed=11316.72s tid=0x00007fc2b35132c0 nid=0x4403 runnable  
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "GC Thread#0" os_prio=31 cpu=46.43ms elapsed=11316.72s tid=0x00007fc2b3609160 nid=0x4b03 runnable  
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "GC Thread#1" os_prio=31 cpu=45.98ms elapsed=11316.25s tid=0x00007fc2b348efd0 nid=0x6903 runnable  
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "GC Thread#2" os_prio=31 cpu=47.16ms elapsed=11316.25s tid=0x00007fc2b348fb20 nid=0x6a03 runnable  
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "GC Thread#3" os_prio=31 cpu=50.55ms elapsed=11316.25s tid=0x00007fc2b3490720 nid=0x9003 runnable  
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "G1 Main Marker" os_prio=31 cpu=0.05ms elapsed=11316.72s tid=0x00007fc2b370af80 nid=0x4a03 runnable  
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "G1 Conc#0" os_prio=31 cpu=0.03ms elapsed=11316.72s tid=0x00007fc2b370c050 nid=0x4703 runnable  
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "G1 Refine#0" os_prio=31 cpu=6.41ms elapsed=11316.72s tid=0x00007fc2b3727ab0 nid=0x4603 runnable  
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "G1 Young RemSet Sampling" os_prio=31 cpu=1404.09ms elapsed=11316.72s tid=0x00007fc2b3728b60 nid=0x4503 runnable  
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | "VM Periodic Task Thread" os_prio=31 cpu=5748.65ms elapsed=11316.66s tid=0x00007fc2b37358a0 nid=0x6203 waiting on condition  
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | JNI global refs: 18, weak refs: 5
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+INFO   | jvm 1    | 2020/12/29 09:51:18 | Heap
+INFO   | jvm 1    | 2020/12/29 09:51:18 |  garbage-first heap   total 266240K, used 86011K [0x0000000700000000, 0x0000000800000000)
+INFO   | jvm 1    | 2020/12/29 09:51:18 |   region size 2048K, 37 young (75776K), 3 survivors (6144K)
+INFO   | jvm 1    | 2020/12/29 09:51:18 |  Metaspace       used 16509K, capacity 16783K, committed 17408K, reserved 1064960K
+INFO   | jvm 1    | 2020/12/29 09:51:18 |   class space    used 1850K, capacity 1939K, committed 2048K, reserved 1048576K
+INFO   | jvm 1    | 2020/12/29 09:51:18 | 
+STATUS | wrapper  | 2020/12/29 09:51:19 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/12/29 10:02:04 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2020/12/29 10:02:04 | Launching a JVM...
+INFO   | jvm 1    | 2020/12/29 10:02:05 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/12/29 10:02:05 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/12/29 10:02:05 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/12/29 10:02:05 | 
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 
+INFO   | jvm 1    | 2020/12/29 10:02:06 | WrapperSimpleApp: Encountered an error running main: java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/12/29 10:02:06 | java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at io.mycat.MycatStartup.main(MycatStartup.java:53)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at java.base/java.lang.Thread.run(Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | Caused by: io.mycat.config.util.ConfigException: org.xml.sax.SAXParseException; lineNumber: 32; columnNumber: 17; 注释中不允许出现字符串 "--"。
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:126)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:83)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:87)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at io.mycat.config.ConfigInitializer.<init>(ConfigInitializer.java:76)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at io.mycat.config.MycatConfig.<init>(MycatConfig.java:72)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at io.mycat.MycatServer.<init>(MycatServer.java:159)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at io.mycat.MycatServer.<clinit>(MycatServer.java:106)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	... 7 more
+INFO   | jvm 1    | 2020/12/29 10:02:06 | Caused by: org.xml.sax.SAXParseException; lineNumber: 32; columnNumber: 17; 注释中不允许出现字符串 "--"。
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(XMLScanner.java:818)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(XMLDocumentFragmentScannerImpl.java:1078)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2913)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at io.mycat.config.util.ConfigUtil.getDocument(ConfigUtil.java:115)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:116)
+INFO   | jvm 1    | 2020/12/29 10:02:06 | 	... 13 more
+STATUS | wrapper  | 2020/12/29 10:02:08 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/12/29 10:53:43 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2020/12/29 10:53:44 | Launching a JVM...
+INFO   | jvm 1    | 2020/12/29 10:53:44 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/12/29 10:53:44 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/12/29 10:53:44 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/12/29 10:53:44 | 
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 
+INFO   | jvm 1    | 2020/12/29 10:53:45 | WrapperSimpleApp: Encountered an error running main: java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/12/29 10:53:45 | java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at io.mycat.MycatStartup.main(MycatStartup.java:53)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at java.base/java.lang.Thread.run(Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | Caused by: io.mycat.config.util.ConfigException: org.xml.sax.SAXParseException; lineNumber: 32; columnNumber: 17; 注释中不允许出现字符串 "--"。
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:126)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:83)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:87)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at io.mycat.config.ConfigInitializer.<init>(ConfigInitializer.java:76)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at io.mycat.config.MycatConfig.<init>(MycatConfig.java:72)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at io.mycat.MycatServer.<init>(MycatServer.java:159)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at io.mycat.MycatServer.<clinit>(MycatServer.java:106)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	... 7 more
+INFO   | jvm 1    | 2020/12/29 10:53:45 | Caused by: org.xml.sax.SAXParseException; lineNumber: 32; columnNumber: 17; 注释中不允许出现字符串 "--"。
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(XMLScanner.java:818)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(XMLDocumentFragmentScannerImpl.java:1078)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2913)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at io.mycat.config.util.ConfigUtil.getDocument(ConfigUtil.java:115)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:116)
+INFO   | jvm 1    | 2020/12/29 10:53:45 | 	... 13 more
+STATUS | wrapper  | 2020/12/29 10:53:47 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/12/29 11:21:06 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2020/12/29 11:21:06 | Launching a JVM...
+INFO   | jvm 1    | 2020/12/29 11:21:06 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/12/29 11:21:06 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/12/29 11:21:06 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/12/29 11:21:06 | 
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 
+INFO   | jvm 1    | 2020/12/29 11:21:07 | WrapperSimpleApp: Encountered an error running main: java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/12/29 11:21:07 | java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at io.mycat.MycatStartup.main(MycatStartup.java:53)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at java.base/java.lang.Thread.run(Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | Caused by: io.mycat.config.util.ConfigException: org.xml.sax.SAXParseException; lineNumber: 32; columnNumber: 17; 注释中不允许出现字符串 "--"。
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:126)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:83)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:87)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at io.mycat.config.ConfigInitializer.<init>(ConfigInitializer.java:76)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at io.mycat.config.MycatConfig.<init>(MycatConfig.java:72)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at io.mycat.MycatServer.<init>(MycatServer.java:159)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at io.mycat.MycatServer.<clinit>(MycatServer.java:106)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	... 7 more
+INFO   | jvm 1    | 2020/12/29 11:21:07 | Caused by: org.xml.sax.SAXParseException; lineNumber: 32; columnNumber: 17; 注释中不允许出现字符串 "--"。
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(XMLScanner.java:818)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(XMLDocumentFragmentScannerImpl.java:1078)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2913)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at io.mycat.config.util.ConfigUtil.getDocument(ConfigUtil.java:115)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:116)
+INFO   | jvm 1    | 2020/12/29 11:21:07 | 	... 13 more
+STATUS | wrapper  | 2020/12/29 11:21:09 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/12/29 11:21:56 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/12/29 11:21:57 | Launching a JVM...
+INFO   | jvm 1    | 2020/12/29 11:21:57 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/12/29 11:21:57 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/12/29 11:21:57 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 
+INFO   | jvm 1    | 2020/12/29 11:21:57 | WrapperSimpleApp: Encountered an error running main: java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/12/29 11:21:57 | java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at io.mycat.MycatStartup.main(MycatStartup.java:53)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at java.base/java.lang.Thread.run(Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | Caused by: io.mycat.config.util.ConfigException: org.xml.sax.SAXParseException; lineNumber: 32; columnNumber: 17; 注释中不允许出现字符串 "--"。
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:126)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:83)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:87)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at io.mycat.config.ConfigInitializer.<init>(ConfigInitializer.java:76)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at io.mycat.config.MycatConfig.<init>(MycatConfig.java:72)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at io.mycat.MycatServer.<init>(MycatServer.java:159)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at io.mycat.MycatServer.<clinit>(MycatServer.java:106)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	... 7 more
+INFO   | jvm 1    | 2020/12/29 11:21:57 | Caused by: org.xml.sax.SAXParseException; lineNumber: 32; columnNumber: 17; 注释中不允许出现字符串 "--"。
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(XMLScanner.java:818)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(XMLDocumentFragmentScannerImpl.java:1078)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2913)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at io.mycat.config.util.ConfigUtil.getDocument(ConfigUtil.java:115)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:116)
+INFO   | jvm 1    | 2020/12/29 11:21:57 | 	... 13 more
+STATUS | wrapper  | 2020/12/29 11:21:59 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/12/29 11:34:01 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/12/29 11:34:01 | Launching a JVM...
+INFO   | jvm 1    | 2020/12/29 11:34:01 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/12/29 11:34:01 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/12/29 11:34:01 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/12/29 11:34:01 | 
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 
+INFO   | jvm 1    | 2020/12/29 11:34:02 | WrapperSimpleApp: Encountered an error running main: java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/12/29 11:34:02 | java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at io.mycat.MycatStartup.main(MycatStartup.java:53)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.base/java.lang.Thread.run(Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | Caused by: io.mycat.config.util.ConfigException: org.xml.sax.SAXParseException; lineNumber: 91; columnNumber: 42; 必须为元素类型 "user" 声明属性 "defaultAccount"。
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at io.mycat.config.loader.xml.XMLServerLoader.load(XMLServerLoader.java:112)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at io.mycat.config.loader.xml.XMLServerLoader.<init>(XMLServerLoader.java:70)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at io.mycat.config.loader.xml.XMLConfigLoader.<init>(XMLConfigLoader.java:56)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at io.mycat.config.ConfigInitializer.<init>(ConfigInitializer.java:79)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at io.mycat.config.MycatConfig.<init>(MycatConfig.java:72)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at io.mycat.MycatServer.<init>(MycatServer.java:159)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at io.mycat.MycatServer.<clinit>(MycatServer.java:106)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	... 7 more
+INFO   | jvm 1    | 2020/12/29 11:34:02 | Caused by: org.xml.sax.SAXParseException; lineNumber: 91; columnNumber: 42; 必须为元素类型 "user" 声明属性 "defaultAccount"。
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:135)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.addDTDDefaultAttrsAndValidate(XMLDTDValidator.java:1237)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleStartElement(XMLDTDValidator.java:1846)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.startElement(XMLDTDValidator.java:728)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1406)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2725)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at io.mycat.config.util.ConfigUtil.getDocument(ConfigUtil.java:115)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	at io.mycat.config.loader.xml.XMLServerLoader.load(XMLServerLoader.java:96)
+INFO   | jvm 1    | 2020/12/29 11:34:02 | 	... 13 more
+STATUS | wrapper  | 2020/12/29 11:34:04 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/12/29 11:36:24 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/12/29 11:36:24 | Launching a JVM...
+INFO   | jvm 1    | 2020/12/29 11:36:24 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/12/29 11:36:24 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/12/29 11:36:24 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/12/29 11:36:24 | 
+INFO   | jvm 1    | 2020/12/29 11:36:25 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/12/29 11:36:25 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/Users/tanxiaoyan/Desktop/mycat/lib/Mycat-server-1.6.5-DEV.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/12/29 11:36:25 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/12/29 11:36:25 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/12/29 11:36:25 | WARNING: All illegal access operations will be denied in a future release
+STATUS | wrapper  | 2020/12/29 11:39:33 | TERM trapped.  Shutting down.
+WARN   | wrapper  | 2020/12/29 11:39:33 | JVM process was still running after receiving a SIGCHLD signal.
+STATUS | wrapper  | 2020/12/29 11:39:34 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/12/29 11:39:51 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/12/29 11:39:51 | Launching a JVM...
+INFO   | jvm 1    | 2020/12/29 11:39:51 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/12/29 11:39:51 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/12/29 11:39:51 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/12/29 11:39:51 | 
+INFO   | jvm 1    | 2020/12/29 11:39:52 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/12/29 11:39:52 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/Users/tanxiaoyan/Desktop/mycat/lib/Mycat-server-1.6.5-DEV.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/12/29 11:39:52 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/12/29 11:39:52 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/12/29 11:39:52 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/12/29 11:42:53 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/12/29 12:30:41 | TERM trapped.  Shutting down.
+WARN   | wrapper  | 2020/12/29 12:30:41 | JVM process was still running after receiving a SIGCHLD signal.
+STATUS | wrapper  | 2020/12/29 12:30:42 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/12/29 12:31:03 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/12/29 12:31:03 | Launching a JVM...
+INFO   | jvm 1    | 2020/12/29 12:31:04 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/12/29 12:31:04 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/12/29 12:31:04 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/12/29 12:31:04 | 
+INFO   | jvm 1    | 2020/12/29 12:31:05 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/12/29 12:31:05 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/Users/tanxiaoyan/Desktop/mycat/lib/Mycat-server-1.6.5-DEV.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/12/29 12:31:05 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/12/29 12:31:05 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/12/29 12:31:05 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/12/29 12:32:05 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/12/29 12:35:50 | TERM trapped.  Shutting down.
+WARN   | wrapper  | 2020/12/29 12:35:50 | JVM process was still running after receiving a SIGCHLD signal.
+STATUS | wrapper  | 2020/12/29 12:35:51 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/12/29 12:36:41 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/12/29 12:36:42 | Launching a JVM...
+INFO   | jvm 1    | 2020/12/29 12:36:42 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/12/29 12:36:42 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/12/29 12:36:42 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/12/29 12:36:42 | 
+INFO   | jvm 1    | 2020/12/29 12:36:43 | 
+INFO   | jvm 1    | 2020/12/29 12:36:43 | WrapperSimpleApp: Encountered an error running main: java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/12/29 12:36:43 | java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/12/29 12:36:43 | 	at io.mycat.MycatStartup.main(MycatStartup.java:53)
+INFO   | jvm 1    | 2020/12/29 12:36:43 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2020/12/29 12:36:43 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+INFO   | jvm 1    | 2020/12/29 12:36:43 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2020/12/29 12:36:43 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+INFO   | jvm 1    | 2020/12/29 12:36:43 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2020/12/29 12:36:43 | 	at java.base/java.lang.Thread.run(Thread.java:832)
+INFO   | jvm 1    | 2020/12/29 12:36:43 | Caused by: io.mycat.config.util.ConfigException: Illegal table conf : table [ EMPLOYEE ] rule function [ hash-int ] partition size : 2 > table datanode size : 1, please make sure table datanode size = function partition size
+INFO   | jvm 1    | 2020/12/29 12:36:43 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.checkRuleSuitTable(XMLSchemaLoader.java:563)
+INFO   | jvm 1    | 2020/12/29 12:36:43 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.loadTables(XMLSchemaLoader.java:396)
+INFO   | jvm 1    | 2020/12/29 12:36:43 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.loadSchemas(XMLSchemaLoader.java:173)
+INFO   | jvm 1    | 2020/12/29 12:36:43 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:122)
+INFO   | jvm 1    | 2020/12/29 12:36:43 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:83)
+INFO   | jvm 1    | 2020/12/29 12:36:43 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:87)
+INFO   | jvm 1    | 2020/12/29 12:36:43 | 	at io.mycat.config.ConfigInitializer.<init>(ConfigInitializer.java:76)
+INFO   | jvm 1    | 2020/12/29 12:36:43 | 	at io.mycat.config.MycatConfig.<init>(MycatConfig.java:72)
+INFO   | jvm 1    | 2020/12/29 12:36:43 | 	at io.mycat.MycatServer.<init>(MycatServer.java:159)
+INFO   | jvm 1    | 2020/12/29 12:36:43 | 	at io.mycat.MycatServer.<clinit>(MycatServer.java:106)
+INFO   | jvm 1    | 2020/12/29 12:36:43 | 	... 7 more
+STATUS | wrapper  | 2020/12/29 12:36:44 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/12/29 12:37:28 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/12/29 12:37:29 | Launching a JVM...
+INFO   | jvm 1    | 2020/12/29 12:37:29 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/12/29 12:37:29 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/12/29 12:37:29 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/12/29 12:37:29 | 
+INFO   | jvm 1    | 2020/12/29 12:37:30 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/12/29 12:37:30 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/Users/tanxiaoyan/Desktop/mycat/lib/Mycat-server-1.6.5-DEV.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/12/29 12:37:30 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/12/29 12:37:30 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/12/29 12:37:30 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/12/29 12:38:30 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/12/29 12:40:34 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/12/29 12:41:04 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/12/29 12:41:05 | Launching a JVM...
+INFO   | jvm 1    | 2020/12/29 12:41:05 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/12/29 12:41:05 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/12/29 12:41:05 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/12/29 12:41:05 | 
+INFO   | jvm 1    | 2020/12/29 12:41:06 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/12/29 12:41:06 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/Users/tanxiaoyan/Desktop/mycat/lib/Mycat-server-1.6.5-DEV.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/12/29 12:41:06 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/12/29 12:41:06 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/12/29 12:41:06 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/12/29 12:41:06 | MyCAT Server startup successfully. see logs in logs/mycat.log
+WARN   | wrapper  | 2020/12/29 13:21:33 | JVM process was still running after receiving a SIGCHLD signal.
+STATUS | wrapper  | 2020/12/29 13:21:36 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/12/29 14:38:58 | --> Wrapper Started as Console
+STATUS | wrapper  | 2020/12/29 14:38:58 | Launching a JVM...
+INFO   | jvm 1    | 2020/12/29 14:38:58 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/12/29 14:38:58 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/12/29 14:38:58 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/12/29 14:38:58 | 
+INFO   | jvm 1    | 2020/12/29 14:38:59 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/12/29 14:38:59 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/Users/tanxiaoyan/Desktop/mycat/lib/Mycat-server-1.6.5-DEV.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/12/29 14:38:59 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/12/29 14:38:59 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/12/29 14:38:59 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/12/29 14:39:00 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/12/29 14:50:49 | TERM trapped.  Shutting down.
+WARN   | wrapper  | 2020/12/29 14:50:49 | JVM process was still running after receiving a SIGCHLD signal.
+STATUS | wrapper  | 2020/12/29 14:50:50 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/12/29 14:51:43 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2020/12/29 14:51:43 | Launching a JVM...
+INFO   | jvm 1    | 2020/12/29 14:51:43 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/12/29 14:51:43 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/12/29 14:51:43 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/12/29 14:51:43 | 
+INFO   | jvm 1    | 2020/12/29 14:51:44 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/12/29 14:51:44 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/Users/tanxiaoyan/Desktop/mycat/lib/Mycat-server-1.6.5-DEV.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/12/29 14:51:44 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/12/29 14:51:44 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/12/29 14:51:44 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/12/29 14:51:45 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/12/29 15:36:06 | TERM trapped.  Shutting down.
+STATUS | wrapper  | 2020/12/29 15:36:08 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/12/29 15:36:09 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2020/12/29 15:36:09 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/29 15:36:09 | Unable to start JVM: No such file or directory (2)
+ERROR  | wrapper  | 2020/12/29 15:36:09 | JVM exited while loading the application.
+STATUS | wrapper  | 2020/12/29 15:36:13 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/29 15:36:13 | Unable to start JVM: No such file or directory (2)
+ERROR  | wrapper  | 2020/12/29 15:36:13 | JVM exited while loading the application.
+STATUS | wrapper  | 2020/12/29 15:36:17 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/29 15:36:17 | Unable to start JVM: No such file or directory (2)
+ERROR  | wrapper  | 2020/12/29 15:36:17 | JVM exited while loading the application.
+STATUS | wrapper  | 2020/12/29 15:36:21 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/29 15:36:21 | Unable to start JVM: No such file or directory (2)
+ERROR  | wrapper  | 2020/12/29 15:36:21 | JVM exited while loading the application.
+STATUS | wrapper  | 2020/12/29 15:36:26 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/29 15:36:26 | Unable to start JVM: No such file or directory (2)
+ERROR  | wrapper  | 2020/12/29 15:36:26 | JVM exited while loading the application.
+FATAL  | wrapper  | 2020/12/29 15:36:26 | There were 5 failed launches in a row, each lasting less than 300 seconds.  Giving up.
+FATAL  | wrapper  | 2020/12/29 15:36:26 |   There may be a configuration problem: please check the logs.
+STATUS | wrapper  | 2020/12/29 15:36:26 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/12/29 15:37:50 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2020/12/29 15:37:50 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/29 15:37:50 | Unable to start JVM: No such file or directory (2)
+ERROR  | wrapper  | 2020/12/29 15:37:50 | JVM exited while loading the application.
+STATUS | wrapper  | 2020/12/29 15:37:54 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/29 15:37:54 | Unable to start JVM: No such file or directory (2)
+ERROR  | wrapper  | 2020/12/29 15:37:54 | JVM exited while loading the application.
+STATUS | wrapper  | 2020/12/29 15:37:58 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/29 15:37:58 | Unable to start JVM: No such file or directory (2)
+ERROR  | wrapper  | 2020/12/29 15:37:58 | JVM exited while loading the application.
+STATUS | wrapper  | 2020/12/29 15:38:02 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/29 15:38:02 | Unable to start JVM: No such file or directory (2)
+ERROR  | wrapper  | 2020/12/29 15:38:03 | JVM exited while loading the application.
+STATUS | wrapper  | 2020/12/29 15:38:07 | Launching a JVM...
+ERROR  | wrapper  | 2020/12/29 15:38:07 | Unable to start JVM: No such file or directory (2)
+ERROR  | wrapper  | 2020/12/29 15:38:07 | JVM exited while loading the application.
+FATAL  | wrapper  | 2020/12/29 15:38:07 | There were 5 failed launches in a row, each lasting less than 300 seconds.  Giving up.
+FATAL  | wrapper  | 2020/12/29 15:38:07 |   There may be a configuration problem: please check the logs.
+STATUS | wrapper  | 2020/12/29 15:38:07 | <-- Wrapper Stopped

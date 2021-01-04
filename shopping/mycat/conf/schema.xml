@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE mycat:schema SYSTEM "schema.dtd">
+<mycat:schema xmlns:mycat="http://io.mycat/">
+	<schema name="TEST" checkSQLschema="true" sqlMaxLimit="100">
+		<table name="customer" primaryKey="id" autoIncrement="true" dataNode="dn1,dn2" rule="mod-rule"></table>
+		<table name="clothes" primaryKey="id" dataNode="dn1,dn2" rule="my-sharding-by-intfile"></table>
+		<table name="clothesCore" primaryKey="id" dataNode="dn1,dn2" rule="my-sharding-by-intfile"></table>
+		<table name="image" dataNode="dn1,dn2" rule="auto-sharding-long"></table>
+		<table name="sale" dataNode="dn1,dn2" rule="auto-sharding-long"></table>
+		<table name="orders" primaryKey="id" dataNode="dn1,dn2" rule="ms-auto-sharding-long"></table>
+		<table name="cart" primaryKey="id" dataNode="dn1,dn2" rule="ms-auto-sharding-long"></table>
+	</schema>
+
+	<dataNode name="dn1" dataHost="host1" database="db1" />
+	<dataNode name="dn2" dataHost="host2" database="db2" />
+
+	<dataHost name="host1" maxCon="1000" minCon="10" balance="0" writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
+  		<heartbeat>select user()</heartbeat>
+		<!-- can have multi write hosts -->
+		<writeHost host="hostM1" url="localhost:3306" user="mycat" password="123456">
+			<!-- can have multi read hosts -->
+			<!-- <readHost host="hostS2" url="localhost:3306" user="root" password="199812mysql." /> -->
+		</writeHost>
+	</dataHost>
+	<dataHost name="host2" maxCon="1000" minCon="10" balance="0" writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
+  		<heartbeat>select user()</heartbeat>
+		<!-- can have multi write hosts -->
+		<writeHost host="hostM2" url="10.62.163.136:3306" user="root" password="199812mysql.">
+			<!-- can have multi read hosts -->
+			<!-- <readHost host="hostS2" url="localhost:3306" user="root" password="199812mysql." /> -->
+		</writeHost>
+	</dataHost> 
+	
+</mycat:schema>
