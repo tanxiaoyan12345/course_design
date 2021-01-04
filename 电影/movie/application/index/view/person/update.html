@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- 网页使用的语言 -->
+<html lang="zh-CN">
+    <head>
+    	
+        <!-- 指定字符集 -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>修改用户</title>
+
+        <link href="/Test/public/css/bootstrap.min.css" rel="stylesheet">
+        <script src="/Test/public/js/jquery-2.1.0.min.js"></script>
+        <script src="/Test/public/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="container" style="width: 400px;">
+        <h3 style="text-align: center;">修改用户</h3>
+        <form action="/movie/public/index/person/update" method="post">
+          <input type="text" hidden name="id" value="{$person.personID}">          
+					<div class="form-group">
+            <label for="personName">用户名：</label>
+            <input type="text" class="form-control" id="personName" name="personName" value="{$person.personName}" readonly="readonly" placeholder="请输入用户名" />
+          </div>            
+
+					<div class="form-group">
+            <label for="Password">密码：</label>
+            <input type="text" class="form-control" id="personPassword" value="{$person.personPassword}" name="personPassword" placeholder="请输入密码"/>
+          </div>
+					
+          
+          <div class="form-group">
+          	<label for="personType">类别：</label>
+          	<select name="personType" class="form-control" >
+          			<option value="管理员">管理员</option>
+          			<option value="消费者">消费者</option>
+          	</select>
+          </div>
+
+         
+					
+					
+             <div class="form-group" style="text-align: center">
+                <input class="btn btn-primary" type="submit" value="提交" />
+                <input class="btn btn-default" type="reset" value="重置" />
+                <input class="btn btn-default" type="button" onclick="backToPrevious()" value="返回"/>
+             </div>
+        </form>
+        </div>
+    </body>
+
+    <script>
+        function backToPrevious() {
+            history.go(-1);            
+        }
+    </script>
+</html>

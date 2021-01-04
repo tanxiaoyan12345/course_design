@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- 网页使用的语言 -->
+<html>
+<head>
+    
+    <title>添加电影</title>
+
+    <!-- 1. 导入CSS的全局样式 -->
+    <link href="/Test/public/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 2. jQuery导入，建议使用1.9以上的版本 -->
+    <script src="/Test/public/js/jquery-2.1.0.min.js"></script>
+    <!-- 3. 导入bootstrap的js文件 -->
+    <script src="/Test/public/js/bootstrap.min.js"></script>
+</head>
+<body>
+	
+<div class="container text-left" style="width: 450px;">
+    <center><h3>添加电影信息</h3></center>
+    <form action="/movie/public/index/Movies/addmovies" method="post" class="form-horizontal">       
+        <div class="form-group">
+           <label class="col-lg-2 control-label" for="movieName">movieName：</label>
+           <div class="col-lg-8">
+               <input type="text" class="form-control" id="movieName" name="movieName" placeholder="请输入movieName">
+           </div>
+        </div>
+        <div class="form-group">
+            <label for="movieTime" class="col-lg-2 control-label">movieTime：</label>
+           <div class="col-lg-8">
+               <input type="date" class="form-control" id="movieTime" name="movieTime" placeholder="请输入日期"/>
+           </div>
+        </div>        				
+     
+        <div class="form-group">
+            <label for="moviePrice" class="control-label col-lg-2">moviePrice：</label>
+           <div class="col-lg-8">
+               <input type="text" class="form-control" id="moviePrice"  name="moviePrice" placeholder="请输入moviePrice"/>
+           </div>
+        </div>
+	
+				<div class="form-group">
+            <label for="movieNum" class="col-lg-2 control-label">movieNum：</label>
+           <div class="col-lg-8">
+               <input type="text" class="form-control" id="movieNum" name="movieNum" placeholder="请输入movieNum"/>
+           </div>
+        </div>
+				
+				<div class="form-group">
+						<label for="movieRemain" class="col-lg-2 control-label">movieRemain：</label>
+					<div class="col-lg-8">
+							<input type="text" class="form-control" id="movieRemain" name="movieRemain" placeholder="请输入movieRemain"/>
+					</div>
+				</div>
+				
+        <div class="form-group" style="text-align: center">
+            <input class="btn btn-primary" type="submit" value="提交" />
+            <input class="btn btn-default" type="reset" value="重置" />
+            <input class="btn btn-default" onclick="backToPrevious()" type="button" value="返回"/>
+        </div>
+    </form>
+</div>
+</body>
+<script>
+    function backToPrevious() {
+        history.go(-1);
+        // location.href = document.referrer;
+    }
+</script>
+</html>

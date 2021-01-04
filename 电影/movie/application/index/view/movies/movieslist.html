@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div>
+			<h3>电影信息列表</h3>
+			<br />
+			<br />
+			<div>
+				<form id="query_form" action="/movie/public/index/Books/query" method="post">
+					<div>
+						<label>书名:</label>
+						<input type="text" class="form-control" name="name" value="">
+					</div>
+					<div class="form-group">
+						<label>类别:</label>
+						<select class="form-control" name="Type" value="">
+							<option value=''>全部</option>
+							<option value='1'>数学</option>
+							<option value='2'>哲学</option>
+							<option value='3'>经济</option>
+							<option value='4'>计算机</option>
+						</select>
+					</div>			
+					<button type="submit">点击查询</button>
+				</form>
+			</div>
+			<br />
+			<br />
+			<table border="1">
+				<tr>
+					<td colspan="5">
+						<div align="center">
+							<span style="color: red;">{$info|default=''}</span>
+						</div>
+					</td>
+					<td style="text-align: center"><a class="btn btn-primary" href="movie/public/index/Movies/add">添加电影信息</a></td>
+				</tr>
+				<tr class="success">
+					<th class="col-md-1" style="display: none;">编号</th>
+					
+					
+					<th class="col-md-1">电影名</th>
+					<th class="col-md-1">放映时间</th>
+					<th class="col-md-1">价格</th>
+					<th class="col-md-1">数量</th>
+					<th class="col-md-1">剩余票数</th>
+					<th class="col-md-2">操作</th>
+				</tr>
+
+				{foreach $list as $movies}
+				<tr>
+					<td style="display: none;">{$movies.movieID}</td>
+					<td>{$movies.movieName}</td>
+
+					<td>{$movies.movieTime}</td>
+					<td>{$movies.moviePrice}</td>
+					<td>{$movies.movieNum}</td>
+					<td>{$movies.movieRemain}</td>
+					
+					<td>
+						<a href="">修改</a>
+						&nbsp;
+						<a href="">删除</a>
+					</td>
+				</tr>
+				{/foreach}
+
+				<tr>
+				<tr>
+					<th colspan="2">共：
+						< {$count}> 条记录 </th>
+					<td colspan="5"> </td>
+				</tr>
+				</tr>
+			</table>
+			<div></div>
+		</div>
+	</body>
+</html>

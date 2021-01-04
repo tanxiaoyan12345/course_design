@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- 网页使用的语言 -->
+<html lang="zh-CN">
+	<head>
+		<!-- 指定字符集 -->
+		<meta charset="utf-8">
+		<!-- 使用Edge最新的浏览器的渲染方式 -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- viewport视口：网页可以根据设置的宽度自动进行适配，在浏览器的内部虚拟一个容器，容器的宽度与设备的宽度相同。
+    width: 默认宽度与设备的宽度相同
+    initial-scale: 初始的缩放比，为1:1 -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+		<title>电影信息管理系统</title>
+
+		<!-- 1. 导入CSS的全局样式 -->
+		<link href="/movie/public/css/bootstrap.css" rel="stylesheet">
+		<!-- 2. jQuery导入，建议使用1.9以上的版本 -->
+		<script src="/movie/public/js/jquery-2.1.0.min.js"></script>
+		<!-- 3. 导入bootstrap的js文件 -->
+		<script src="/movie/public/js/bootstrap.js"></script>
+		<style type="text/css">
+			td,
+			th {
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h3 style="text-align: center">电影信息列表</h3>
+			<br />
+			<br />
+			<div>
+				<form class="form-inline" id="query_form" action="/movie/public/index/Movies/query" method="post">
+					<div class="form-group">
+						<label>电影名:</label>
+						<input type="text" class="form-control" name="Name" value="">
+					</div>
+										
+					
+					<button type="submit" style="font-size: 15px;color: #2299DD;" class="btn btn-default btn-send">点击查询</button>
+				</form>
+			</div>
+			<br />
+			<br />
+			<table border="1" class="table table-bordered table-hover">
+				<tr>
+					<td colspan="5">
+						<div align="center">
+							<span style="color: red;">{$info|default=''}</span>
+						</div>
+					</td>
+					<td style="text-align: center"><a class="btn btn-primary" href="/movie/public/index/Movies/add">添加电影信息</a></td>
+				</tr>
+				<tr class="success">
+					<th class="col-md-1" style="display: none;">编号</th>
+					<th class="col-md-1">电影名</th>
+					<th class="col-md-1">放映时间</th>
+					<th class="col-md-1">价格</th>
+					<th class="col-md-1">数量</th>
+					<th class="col-md-1">剩余票数</th>
+					<th class="col-md-2">操作</th>
+				</tr>
+
+				{volist name='list' id='movies'}
+				<tr>
+					<td style="display: none;">{$movies.movieID}</td>
+					<td>{$movies.movieName}</td>
+					
+					<td>{$movies.movieTime}</td>
+					<td>{$movies.moviePrice}</td>
+					<td>{$movies.movieNum}</td>
+					<td>{$movies.movieRemain}</td>
+					<td>
+						<a class="btn btn-default btn-sm" href="/movie/public/index/Movies/updateinfo?id={$movies.movieID}">修改</a>
+						&nbsp;
+						<a class="btn btn-default btn-sm" href="/movie/public/index/Movies/delete?id={$movies.movieID}">删除</a>
+					</td>
+				</tr>
+				{/volist}
+
+				<tr>
+				<tr>
+					<th colspan="2">共：
+						< {$count}> 条记录 </th>
+					<td colspan="5"> </td>
+				</tr>
+				</tr>
+			</table>
+			<div>{$list->render()}</div>
+		</div>
+	</body>
+	<script>
+		function deleteUserById(id) {
+			var confirmFlag = confirm("确认删除吗？");
+			if (confirmFlag) {
+				location.href = "/deleteUserByIdServlet?id=" + id + "&pageNum=" + $ {
+					pageNum
+				} + "&pageSize=" + $ {
+					pageSize
+				};
+			}
+		}
+
+		$("#pageSizeSelect").change(function() {
+			var pageSize = this.value;
+			location.href = "/pageQueryServlet?pageNum=1&pageSize=" + pageSize;
+		});
+
+		$(function() {
+			$("#pageSizeSelect").val($ {
+				pageSize
+			});
+		});
+	</script>
+
+</html>
