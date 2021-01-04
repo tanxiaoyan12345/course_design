@@ -21,12 +21,12 @@ $(function () {
     //加载购物车信息
     $.ajax({
         type: "post",
-        url: "/getOrderByUserName",
+        url: "/getOrdersByUserName",
         data: {},
         dataType: "json",
         async: false,
         success: function (data) {
-            var orderItem = data.orderForOneUser;
+            var orderItem = data.ordersForOneUser;
             for (var i = 0; i < orderItem.length; i++){
                 $(".showCartList").after(
                     "<div class='divCartItem'>\n" +
@@ -35,17 +35,17 @@ $(function () {
                             "<img src='"+ orderItem[i].ClothesImg.image +"' style='height: 100%;width: 100%'>\n" +
                         "</div>\n" +
                         "<div class='divCartItem-title'>\n" +
-                            orderItem[i].orderInfo.clothesName+
+                            orderItem[i].ordersInfo.clothesName+
                         "</div>\n" +
                     "</div>\n" +
                     "<div class='divCartItem-little'>\n" +
-                        "￥"+ orderItem[i].orderInfo.price + ".00" +
+                        "￥"+ orderItem[i].ordersInfo.price + ".00" +
                     "</div>\n" +
                     "<div class='divCartItem-little'>\n" +
-                        orderItem[i].orderInfo.number+
+                        orderItem[i].ordersInfo.number+
                     "</div>\n" +
                     "<div class='divCartItem-little' >\n" +
-                        "￥"+ orderItem[i].orderInfo.sumPrice + ".00" +
+                        "￥"+ orderItem[i].ordersInfo.sumPrice + ".00" +
                     "</div>\n" +
                     "</div>");
             }

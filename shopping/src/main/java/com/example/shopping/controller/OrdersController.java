@@ -39,16 +39,16 @@ public class OrdersController {
         this.cartService = cartService;
     }
 
-    @RequestMapping(value = "/getOrderByUserName", method=RequestMethod.POST)
+    @RequestMapping(value = "/getOrdersByUserName", method=RequestMethod.POST)
     public Map<String, List<Map<String,Object>>> getOrdersByUserName(HttpSession httpSession){
         Customer customer = (Customer) httpSession.getAttribute("customer");
         String username = customer.getUsername();
-
+        System.out.println("username "+username);
         List<Map<String,Object>> list = ordersService.getCartByUserName(username);
-
+        System.out.println("cartList size "+list.size());
         Map<String, List<Map<String,Object>>> rMap = new HashMap<>();
 
-        rMap.put("orderForOneUser", list);
+        rMap.put("ordersForOneUser", list);
 
         return rMap;
     }
